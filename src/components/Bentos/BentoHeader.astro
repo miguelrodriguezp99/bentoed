@@ -1,0 +1,38 @@
+---
+const { bentoTitle } = Astro.props;
+---
+
+<div class="flex gap-5">
+  <div class="flex flex-1">
+    <h2
+      id="bento-btn"
+      class="text-2xl font-bold text-highlight_hover ml-1 cursor-pointer"
+    >
+      ▢ {bentoTitle}
+    </h2>
+  </div>
+  <button
+    class="html-btn px-5 text-md py-1
+      bg-primary text-tertiary border border-secondary
+      rounded-tl-md rounded-br-md cursor-pointer
+      transition-all duration-300 ease-in-out select-none
+      hover:text-primary hover:bg-tertiary"
+    >HTML</button
+  >
+  <button
+    class="css-btn px-5 text-md py-1
+    bg-primary text-tertiary border border-secondary
+    rounded-tl-md rounded-br-md cursor-pointer
+    transition-all duration-300 ease-in-out select-none
+    hover:text-primary hover:bg-tertiary"
+    >CSS</button
+  >
+  <button
+    class="tailwind-btn px-5 text-md py-1
+    bg-primary text-tertiary border border-secondary
+    rounded-tl-md rounded-br-md cursor-pointer
+    transition-all duration-300 ease-in-out select-none
+    hover:text-primary hover:bg-tertiary"
+    >TAILWIND</button
+  >
+</div>

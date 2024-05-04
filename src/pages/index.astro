@@ -1,0 +1,128 @@
+---
+import Hero from "@/components/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import BentoOne from "@/components/Bentos/BentoOne.astro";
+import BentoTwo from "@/components/Bentos/BentoTwo.astro";
+import BentoThree from "@/components/Bentos/BentoThree.astro";
+---
+
+<Layout title="Welcome to Bentoed">
+  <main class="max-w-[1300px] flex flex-col mx-auto px-3 gap-20">
+    <Header />
+    <Hero />
+    <BentoOne />
+    <BentoTwo />
+    <BentoThree />
+    <footer>Footer</footer>
+  </main>
+</Layout>
+
+<style></style>
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"
+></script>
+
+<script is:inline type="module">
+  import { showCode, setClipboard } from "./src/lib/BentoFunctions.js";
+
+  /* Espero a que se cargue todo el dom */
+  document.addEventListener("DOMContentLoaded", () => {
+    /* Cojo todos los bentos accediendo a la clase bento-section */
+    const bentos = document.querySelectorAll(".bento-section");
+
+    /* hago el loop */
+    bentos.forEach((bento) => {
+      const htmlBtn = bento.querySelector(".html-btn");
+      const cssBtn = bento.querySelector(".css-btn");
+      const tailwindBtn = bento.querySelector(".tailwind-btn");
+      const bentoBtn = bento.querySelector("#bento-btn");
+
+      const copyHtmlBtn = bento.querySelector(".copy-html-btn");
+      const copyCssBtn = bento.querySelector(".copy-css-btn");
+      const copyTailwindBtn = bento.querySelector(".copy-tailwind-btn");
+
+      const htmlCode = bento.querySelector("#html-code");
+      const cssCode = bento.querySelector("#css-code");
+      const tailwindCode = bento.querySelector("#tailwind-code");
+      const bentoDiv = bento.querySelector("#bento-div");
+
+      const htmlValue = htmlCode.getAttribute("data-value");
+      const cssValue = cssCode.getAttribute("data-value");
+      const tailwindValue = tailwindCode.getAttribute("data-value");
+
+      htmlCode.style.display = "none";
+      cssCode.style.display = "none";
+      tailwindCode.style.display = "none";
+
+      htmlBtn.addEventListener("click", () => {
+        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setDisabledButton(htmlBtn);
+        showCode("html", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
+      });
+
+      cssBtn.addEventListener("click", () => {
+        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setDisabledButton(cssBtn);
+        showCode("css", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
+      });
+
+      tailwindBtn.addEventListener("click", () => {
+        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setDisabledButton(tailwindBtn);
+        showCode(
+          "tailwind",
+          htmlCode,
+          cssCode,
+          tailwindCode,
+          bentoDiv,
+          bentoBtn
+        );
+      });
+      bentoBtn.addEventListener("click", () => {
+        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        showCode("bento", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
+      });
+
+      copyHtmlBtn.addEventListener("click", () => {
+        setClipboard(htmlValue);
+      });
+
+      copyCssBtn.addEventListener("click", () => {
+        setClipboard(cssValue);
+      });
+
+      copyTailwindBtn.addEventListener("click", () => {
+        setClipboard(tailwindValue);
+      });
+    });
+
+    function setActiveButtons(htmlCode, cssCode, tailwindCode) {
+      const btns = [htmlCode, cssCode, tailwindCode];
+      btns.forEach((btn) => {
+        btn.classList.remove("text-primary", "bg-tertiary");
+        btn.classList.add(
+          "bg-primary",
+          "text-tertiary",
+          "hover:text-primary",
+          "hover:bg-tertiary"
+        );
+      });
+    }
+
+    function setDisabledButton(btn) {
+      btn.classList.remove(
+        "bg-primary",
+        "text-tertiary",
+        "hover:text-primary",
+        "hover:bg-tertiary"
+      );
+      btn.classList.add("text-primary", "bg-tertiary");
+    }
+  });
+</script>

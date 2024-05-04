@@ -1,0 +1,55 @@
+---
+import Background from "@/components/Background.astro";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Background />
+    <slot />
+  </body>
+</html>
+<style is:global>
+  :root {
+    --color-primary: #131212;
+    --color-secondary: #252424;
+    --color-tertiary: #ddd;
+
+    --color-block-border: #413f3f1e;
+    --color-block-highlight: #3f0303;
+    --color-block-highlight-hover: #910707;
+  }
+
+  body,
+  * {
+    z-index: 99999;
+  }
+
+  .dark {
+    --color-primary: #ddd;
+    --color-secondary: #888888;
+    --color-tertiary: #111111;
+
+    --color-block-border: #ffffff13;
+    --color-block-highlight: #868f0b;
+    --color-block-highlight-hover: #cfdd11;
+  }
+
+  html {
+    background-color: var(--color-tertiary);
+  }
+</style>

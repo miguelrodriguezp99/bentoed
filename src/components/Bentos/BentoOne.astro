@@ -1,0 +1,45 @@
+---
+import { Bento_1 } from "@/lib/BentoCodes.js";
+import BentoHeader from "./BentoHeader.astro";
+import BentoCode from "./BentoCode.astro";
+---
+
+<section class="bento-section flex flex-col gap-5 mt-16">
+  <BentoHeader bentoTitle="Bento 1" />
+
+  <div
+    id="bento-div"
+    class="w-full grid grid-cols-10 max-auto auto-rows-[35rem] gap-4 p-1"
+  >
+    <div class="col-span-10 lg:col-span-4 group overflow-hidden rounded-md">
+      <img
+        src="images/image.avif"
+        class="h-full w-full object-cover
+    	group-hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
+    </div>
+    <div class="col-span-10 lg:col-span-6 group overflow-hidden rounded-md">
+      <img
+        src="images/image2.avif"
+        class="h-full w-full object-cover
+    group-hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
+    </div>
+    <div class="col-span-10 lg:col-span-6 group overflow-hidden rounded-md">
+      <img
+        src="images/image3.avif"
+        class="h-full w-full object-cover
+      group-hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
+    </div>
+    <div class="col-span-10 lg:col-span-4 group overflow-hidden rounded-md">
+      <img
+        src="images/image4.avif"
+        class="h-full w-full object-cover
+      group-hover:scale-105 transition-transform duration-500 ease-in-out"
+      />
+    </div>
+  </div>
+
+  <BentoCode bento={Bento_1} />
+</section>
