@@ -17,6 +17,26 @@ const { title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:title" content={title} />
+    <meta
+      property="og:description"
+      content="Explore this unique collection of bento designs crafted using HTML, CSS, and Tailwind CSS. Perfect for developers and designers."
+    />
+    <meta property="og:image" content="/images/tag.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://yourwebsite.com" />
+    <meta name="twitter:title" content={title} />
+    <meta
+      name="twitter:description"
+      content="Explore this unique collection of bento designs crafted using HTML, CSS, and Tailwind CSS. Perfect for developers and designers."
+    />
+    <meta name="twitter:image" content="/images/tag.jpg" />
   </head>
   <body>
     <Background />
