@@ -14,7 +14,7 @@ import "../styles/background.css";
     const screenHeight = window.innerHeight;
     const numCols = Math.ceil(screenWidth / blockSize) + 1;
     const numRows = Math.ceil(screenHeight / blockSize);
-    const numBlocks = numCols * numRows + 200;
+    const numBlocks = numCols * numRows + 400;
 
     function createBlocks() {
       for (let i = 0; i < numBlocks; i++) {
@@ -80,6 +80,6 @@ import "../styles/background.css";
     }
 
     createBlocks();
-    window.addEventListener("resize", createBlocks);
+    // window.addEventListener("resize", createBlocks);
   });
 </script>
