@@ -22,6 +22,7 @@ import "../styles/background.css";
         block.classList.add("block");
         block.dataset.index = i.toString();
         block.addEventListener("mouseenter", highlightRandomNeighbors);
+        block.addEventListener("touchend", highlightRandomNeighbors);
         blockContainer.appendChild(block);
       }
     }
