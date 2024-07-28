@@ -42,7 +42,8 @@ import Bento5 from "@/components/Bentos/Bento-5.astro";
       const htmlBtn = bento.querySelector(".html-btn");
       const cssBtn = bento.querySelector(".css-btn");
       const tailwindBtn = bento.querySelector(".tailwind-btn");
-      const bentoBtn = bento.querySelector("#bento-btn");
+      const bentoBtn = bento.querySelector(".bento-btn");
+      const bentoHeader = bento.querySelector(".bento-header");
 
       const copyHtmlBtn = bento.querySelector(".copy-html-btn");
       const copyCssBtn = bento.querySelector(".copy-css-btn");
@@ -62,19 +63,19 @@ import Bento5 from "@/components/Bentos/Bento-5.astro";
       tailwindCode.style.display = "none";
 
       htmlBtn.addEventListener("click", () => {
-        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setActiveButtons(cssBtn, tailwindBtn, bentoBtn);
         setDisabledButton(htmlBtn);
         showCode("html", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
       });
 
       cssBtn.addEventListener("click", () => {
-        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setActiveButtons(htmlBtn, tailwindBtn, bentoBtn);
         setDisabledButton(cssBtn);
         showCode("css", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
       });
 
       tailwindBtn.addEventListener("click", () => {
-        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setActiveButtons(htmlBtn, cssBtn, bentoBtn);
         setDisabledButton(tailwindBtn);
         showCode(
           "tailwind",
@@ -85,8 +86,16 @@ import Bento5 from "@/components/Bentos/Bento-5.astro";
           bentoBtn
         );
       });
+
       bentoBtn.addEventListener("click", () => {
         setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setDisabledButton(bentoBtn);
+        showCode("bento", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
+      });
+
+      bentoHeader.addEventListener("click", () => {
+        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
+        setDisabledButton(bentoBtn);
         showCode("bento", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
       });
 
@@ -145,58 +154,33 @@ import Bento5 from "@/components/Bentos/Bento-5.astro";
       }).showToast();
     }
 
-    function showCode(
-      code,
-      htmlCode,
-      cssCode,
-      tailwindCode,
-      bentoDiv,
-      bentoBtn
-    ) {
+    function showCode(code, htmlCode, cssCode, tailwindCode, bentoDiv) {
       switch (code) {
         case "html":
           htmlCode.style.display = "block";
           bentoDiv.style.display = "none";
           cssCode.style.display = "none";
           tailwindCode.style.display = "none";
-          bentoBtn.classList.remove("text-highlight_hover");
-          bentoBtn.classList.add(
-            "text-highlight",
-            "hover:text-highlight_hover"
-          );
           break;
         case "css":
           htmlCode.style.display = "none";
           bentoDiv.style.display = "none";
           cssCode.style.display = "block";
           tailwindCode.style.display = "none";
-          bentoBtn.classList.remove("text-highlight_hover");
-          bentoBtn.classList.add(
-            "text-highlight",
-            "hover:text-highlight_hover"
-          );
+
           break;
         case "tailwind":
           htmlCode.style.display = "none";
           bentoDiv.style.display = "none";
           cssCode.style.display = "none";
           tailwindCode.style.display = "block";
-          bentoBtn.classList.remove("text-highlight_hover");
-          bentoBtn.classList.add(
-            "text-highlight",
-            "hover:text-highlight_hover"
-          );
+
           break;
         case "bento":
           htmlCode.style.display = "none";
           cssCode.style.display = "none";
           tailwindCode.style.display = "none";
           bentoDiv.style.display = "grid";
-          bentoBtn.classList.remove(
-            "text-highlight",
-            "hover:text-highlight_hover"
-          );
-          bentoBtn.classList.add("text-highlight_hover");
           break;
       }
     }
