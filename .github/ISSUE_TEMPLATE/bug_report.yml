@@ -49,8 +49,6 @@ body:
       label: Expected Behavior
       description: A clear description of what you expected to happen
       placeholder: The button should display the primary theme color
-    validations:
-      required: true
 
   - type: textarea
     id: actual-behavior
@@ -58,8 +56,6 @@ body:
       label: Actual Behavior
       description: A clear description of what is actually happening
       placeholder: The button displays a gray color instead of the primary color
-    validations:
-      required: true
 
   - type: dropdown
     id: tenant
@@ -118,8 +114,6 @@ body:
         - Linux
         - iOS
         - Android
-    validations:
-      required: true
 
   - type: textarea
     id: additional-information
