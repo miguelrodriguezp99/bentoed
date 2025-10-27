@@ -62,7 +62,9 @@ body:
     attributes:
       label: Tenant
       description: Which tenant does this issue occur in?
+      multiple: true
       options:
+        - all-tenants
         - bershka
         - lefties
         - massimo-dutti

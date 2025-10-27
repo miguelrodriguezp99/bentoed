@@ -31,15 +31,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: proposed-solution
-    attributes:
-      label: Proposed Solution or API
-      description: Please provide code snippets, gists, or links to the ideal design or API
-      render: tsx
-    validations:
-      required: true
-
   - type: dropdown
     id: feature-type
     attributes:
@@ -57,12 +48,11 @@ body:
       required: true
 
   - type: textarea
-    id: alternatives
+    id: proposed-solution
     attributes:
-      label: Alternatives
-      description: What alternative solutions have you considered before making this request?
-      placeholder: |
-        Example: I considered adding custom text after each label manually, but it's inconsistent and doesn't follow design system patterns.
+      label: Proposed Solution or API
+      description: Please provide code snippets, gists, or links to the ideal design or API
+      render: tsx
 
   - type: textarea
     id: additional-information
