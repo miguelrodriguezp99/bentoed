@@ -1,6 +1,6 @@
 name: Feature Request
 description: Suggest a new feature or enhancement for the design system
-title: '[Feature]: [Component/Area] '
+title: '[Feature]: [Component] '
 labels: ['enhancement']
 assignees: []
 body:
@@ -10,7 +10,7 @@ body:
         Thanks for filing a feature request!
         Please search open/closed issues before submitting. Someone might have asked the same thing before!
 
-        **Title format**: [Feature]: [Component/Area] Short description
+        **Title format**: [Feature]: [Component] Short description
         Example: [Feature]: Input - Add optional field indicator
 
   - type: textarea
