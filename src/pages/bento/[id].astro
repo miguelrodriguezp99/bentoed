@@ -1,0 +1,343 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { allBentos, getBentoById } from "@/data/bentos/registry";
+import { Code } from "astro:components";
+
+export function getStaticPaths() {
+  return allBentos.map((bento) => ({
+    params: { id: bento.meta.id },
+    props: { bento },
+  }));
+}
+
+const { bento } = Astro.props;
+const { meta, code } = bento;
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") || "https://bentoed.vercel.app";
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  name: meta.name,
+  description: meta.description,
+  url: canonicalUrl,
+  programmingLanguage: ["HTML", "CSS", "Tailwind CSS"],
+  codeRepository: "https://github.com/miguelrodriguezp/bentoed",
+  keywords: meta.tags.join(", "),
+  dateCreated: meta.createdAt,
+  isPartOf: {
+    "@type": "CollectionPage",
+    name: "Bentoed",
+    url: siteUrl,
+  },
+};
+---
+
+<Layout title={`${meta.name} - Bentoed`}>
+  <main class="bento-page">
+    <div class="bento-page-container">
+      <!-- Back link -->
+      <a href="/" class="back-link" data-i18n="bentoPage.backToHome">&larr; Back to all bentos</a>
+
+      <!-- Header -->
+      <div class="bento-page-header">
+        <h1>{meta.name}</h1>
+        <div class="bento-meta">
+          <span class="category-badge" data-i18n={`categories.${meta.category}`}>{meta.category}</span>
+          <div class="tags-list">
+            {meta.tags.map((tag) => (
+              <span class="tag-badge">{tag}</span>
+            ))}
+          </div>
+        </div>
+        <p class="bento-description" data-i18n={`bentos.${meta.id}.description`}>{meta.description}</p>
+      </div>
+
+      <!-- Preview -->
+      <section class="preview-section">
+        <h2 data-i18n="bentoPage.preview">Preview</h2>
+        <div class="preview-container">
+          <div class="preview-frame" set:html={code.tailwind} />
+        </div>
+      </section>
+
+      <!-- Code tabs -->
+      <section class="code-section">
+        <div class="tabs-bar">
+          <button class="tab-btn active" data-tab="html">HTML</button>
+          <button class="tab-btn" data-tab="css">CSS</button>
+          <button class="tab-btn" data-tab="tailwind">Tailwind</button>
+        </div>
+
+        <div class="tab-panel active" id="panel-html" data-value={code.html}>
+          <button class="copy-btn" data-code="html">
+            <span data-i18n="bentoPage.copyCode">Copy code</span>
+          </button>
+          <Code code={code.html} lang="html" theme="dark-plus" wrap />
+        </div>
+
+        <div class="tab-panel" id="panel-css" data-value={code.css}>
+          <button class="copy-btn" data-code="css">
+            <span data-i18n="bentoPage.copyCode">Copy code</span>
+          </button>
+          <Code code={code.css} lang="css" theme="dark-plus" wrap />
+        </div>
+
+        <div class="tab-panel" id="panel-tailwind" data-value={code.tailwind}>
+          <button class="copy-btn" data-code="tailwind">
+            <span data-i18n="bentoPage.copyCode">Copy code</span>
+          </button>
+          <Code code={code.tailwind} lang="html" theme="dark-plus" wrap />
+        </div>
+      </section>
+    </div>
+  </main>
+</Layout>
+
+<!-- JSON-LD -->
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+<!-- Tailwind CDN for preview -->
+<script is:inline src="https://cdn.tailwindcss.com"></script>
+
+<!-- Toastify for copy notifications -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+<!-- Page interactions -->
+<script is:inline>
+document.addEventListener("DOMContentLoaded", function () {
+  // Tabs
+  var tabBtns = document.querySelectorAll(".tab-btn");
+  var panels = document.querySelectorAll(".tab-panel");
+
+  tabBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var tab = btn.dataset.tab;
+      tabBtns.forEach(function (b) { b.classList.remove("active"); });
+      panels.forEach(function (p) { p.classList.remove("active"); });
+      btn.classList.add("active");
+      document.getElementById("panel-" + tab).classList.add("active");
+    });
+  });
+
+  // Copy
+  var copyBtns = document.querySelectorAll(".copy-btn");
+  copyBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var panel = btn.closest(".tab-panel");
+      var text = panel.getAttribute("data-value");
+      var type = "text/plain";
+      var blob = new Blob([text], { type: type });
+      var data = [new ClipboardItem({ [type]: blob })];
+      navigator.clipboard.write(data).then(function () {
+        var copiedText = window.__getTranslation ? window.__getTranslation("bentoPage.copied") : "Copied!";
+        Toastify({
+          text: copiedText,
+          duration: 3000,
+          position: "right",
+          offset: { x: 40, y: 20 },
+          style: { background: "#ddd", color: "black", borderRadius: "10px" },
+        }).showToast();
+      });
+    });
+  });
+});
+</script>
+
+<style>
+  .bento-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    position: relative;
+    z-index: 99999;
+  }
+
+  .bento-page-container {
+    color: var(--color-primary);
+  }
+
+  .back-link {
+    display: inline-block;
+    color: var(--color-secondary);
+    text-decoration: none;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+  }
+  .back-link:hover {
+    color: var(--color-primary);
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+  }
+
+  .bento-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .category-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    background: var(--color-block-highlight);
+    color: #fff;
+  }
+  .dark .category-badge {
+    background: var(--color-block-highlight);
+    color: #fff;
+  }
+
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag-badge {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid var(--color-block-border);
+    color: var(--color-secondary);
+    background: transparent;
+  }
+
+  .bento-description {
+    color: var(--color-secondary);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  /* Preview */
+  .preview-section h2,
+  .code-section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+  }
+
+  .preview-container {
+    border: 1px solid var(--color-block-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 3rem;
+  }
+  .dark .preview-container {
+    background: #1a1a1a;
+  }
+
+  /* Tabs */
+  .code-section {
+    margin-top: 1rem;
+  }
+
+  .tabs-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .tab-btn {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    border: 1px solid var(--color-block-border);
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    background: transparent;
+    color: var(--color-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .tab-btn:hover {
+    color: var(--color-primary);
+  }
+  .tab-btn.active {
+    background: var(--color-primary);
+    color: var(--color-tertiary);
+    border-color: var(--color-primary);
+  }
+
+  .tab-panel {
+    display: none;
+    position: relative;
+    border: 1px solid var(--color-block-border);
+    border-radius: 0 12px 12px 12px;
+    overflow: hidden;
+  }
+  .tab-panel.active {
+    display: block;
+  }
+
+  .tab-panel :global(pre) {
+    margin: 0;
+    padding: 1.5rem;
+    padding-top: 3.5rem;
+    border-radius: 0;
+  }
+
+  .copy-btn {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 10;
+    padding: 0.35rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid var(--color-block-border);
+    border-radius: 6px;
+    background: var(--color-primary);
+    color: var(--color-tertiary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .copy-btn:hover {
+    background: var(--color-tertiary);
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    .bento-page {
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    .preview-container {
+      padding: 0.75rem;
+    }
+
+    .tabs-bar {
+      gap: 0.25rem;
+    }
+
+    .tab-btn {
+      padding: 0.4rem 0.75rem;
+      font-size: 0.75rem;
+    }
+  }
+</style>

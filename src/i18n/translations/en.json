@@ -110,6 +110,14 @@
       "compliance": "This privacy policy is compliant with GDPR, CCPA, and Google AdSense requirements."
     }
   },
+  "bentoPage": {
+    "backToHome": "\u2190 Back to all bentos",
+    "preview": "Preview",
+    "copyCode": "Copy code",
+    "copied": "Copied!",
+    "category": "Category",
+    "tags": "Tags"
+  },
   "bentos": {
     "gallery-grid-4-col": {
       "name": "Gallery Grid 4-6",

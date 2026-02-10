@@ -110,6 +110,14 @@
       "compliance": "Esta política de privacidad cumple con los requisitos de GDPR, CCPA y Google AdSense."
     }
   },
+  "bentoPage": {
+    "backToHome": "\u2190 Volver a todos los bentos",
+    "preview": "Vista previa",
+    "copyCode": "Copiar c\u00f3digo",
+    "copied": "\u00a1Copiado!",
+    "category": "Categor\u00eda",
+    "tags": "Etiquetas"
+  },
   "bentos": {
     "gallery-grid-4-col": {
       "name": "Galería Grid 4-6",
