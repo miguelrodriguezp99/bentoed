@@ -1,0 +1,81 @@
+---
+import { Code } from "astro:components";
+import type { BentoEntry } from "@/data/bentos/types";
+import HeaderButton from "./tab-button.astro";
+
+interface Props {
+	bento: BentoEntry;
+	index: number;
+}
+
+const { bento, index } = Astro.props;
+const { meta, code } = bento;
+---
+
+<article
+  class={`bento-section flex flex-col gap-5 mt-16 ${index >= 10 ? 'hidden' : ''}`}
+  data-category={meta.category}
+  data-index={index}
+  data-bento-id={meta.id}
+>
+  <div class="flex mx-2 sm:mx-0">
+    <div class="flex sm:flex-1">
+      <h2
+        class="hidden sm:flex bento-header text-md md:text-2xl font-bold text-highlight_hover ml-1
+        cursor-pointer text-center items-center"
+      >
+        ▢&nbsp;<span data-i18n={`bentos.${meta.id}.name`}>{meta.name}</span>
+        <span class="ml-3 text-xs font-normal px-2 py-0.5 rounded-full bg-secondary text-tertiary uppercase tracking-wider">
+          <span data-i18n={`categories.${meta.category}`}>{meta.category}</span>
+        </span>
+      </h2>
+    </div>
+    <div class="flex w-full sm:w-auto justify-between sm:justify-normal sm:gap-2">
+      <HeaderButton text="bento" />
+      <HeaderButton text="html" />
+      <HeaderButton text="css" />
+      <HeaderButton text="tailwind" />
+    </div>
+  </div>
+
+  <div id="bento-div" set:html={code.tailwind} />
+
+  <div class="relative" id="html-code" data-value={code.html} style="display:none">
+    <button
+      class="copy-btn copy-html-btn absolute top-0 right-0 mt-3 mr-3 px-5 text-md py-1
+      bg-primary text-tertiary border border-secondary
+      rounded-md cursor-pointer
+      transition-all duration-300 ease-in-out select-none
+      hover:text-primary hover:bg-tertiary"
+    >
+      <span data-i18n="ui.copy">COPY</span>
+    </button>
+    <Code code={code.html} lang="html" theme="dark-plus" wrap class="p-5 rounded-md" />
+  </div>
+
+  <div class="relative" id="css-code" data-value={code.css} style="display:none">
+    <button
+      class="copy-btn copy-css-btn absolute top-0 right-0 mt-3 mr-3 px-5 text-md py-1
+      bg-primary text-tertiary border border-secondary
+      rounded-md cursor-pointer
+      transition-all duration-300 ease-in-out select-none
+      hover:text-primary hover:bg-tertiary"
+    >
+      <span data-i18n="ui.copy">COPY</span>
+    </button>
+    <Code code={code.css} lang="css" theme="dark-plus" wrap class="p-5 rounded-md" />
+  </div>
+
+  <div class="relative" id="tailwind-code" data-value={code.tailwind} style="display:none">
+    <button
+      class="copy-btn copy-tailwind-btn absolute top-0 right-0 mt-3 mr-3 px-5 text-md py-1
+      bg-primary text-tertiary border border-secondary
+      rounded-md cursor-pointer
+      transition-all duration-300 ease-in-out select-none
+      hover:text-primary hover:bg-tertiary"
+    >
+      <span data-i18n="ui.copy">COPY</span>
+    </button>
+    <Code code={code.tailwind} lang="html" theme="dark-plus" wrap class="p-5 rounded-md" />
+  </div>
+</article>

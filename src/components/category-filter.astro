@@ -1,0 +1,26 @@
+---
+import { categories } from "@/data/bentos/registry";
+import { allBentos } from "@/data/bentos/registry";
+---
+
+<nav class="flex flex-wrap gap-2 justify-center" aria-label="Filter by category">
+  <button
+    class="category-btn active text-primary bg-tertiary px-4 py-1.5 text-sm border border-secondary rounded-full cursor-pointer transition-all duration-300 ease-in-out select-none"
+    data-category="all"
+  >
+    <span data-i18n="ui.all">All</span>
+    <span class="ml-1 text-xs opacity-70">{allBentos.length}</span>
+  </button>
+  {categories.map((cat) => {
+    const count = allBentos.filter(b => b.meta.category === cat).length;
+    return (
+      <button
+        class="category-btn bg-primary text-tertiary hover:text-primary hover:bg-tertiary px-4 py-1.5 text-sm border border-secondary rounded-full cursor-pointer transition-all duration-300 ease-in-out select-none capitalize"
+        data-category={cat}
+      >
+        <span data-i18n={`categories.${cat}`}>{cat}</span>
+        <span class="ml-1 text-xs opacity-70">{count}</span>
+      </button>
+    );
+  })}
+</nav>

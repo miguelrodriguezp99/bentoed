@@ -1,0 +1,56 @@
+---
+---
+
+<footer>
+  <div class="footer-content">
+    <p class="copyright">© 2025 Miguel Rodriguez Perez</p>
+    <a href="/privacy" class="privacy-link" data-i18n="footer.privacyPolicy">Privacy Policy</a>
+  </div>
+</footer>
+
+<style>
+  footer {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+    border-top: 1px solid var(--color-primary);
+    z-index: 99999;
+    position: sticky;
+		bottom: 0;
+  }
+
+  .footer-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .copyright {
+    font-size: 0.875rem;
+    color: var(--color-primary);
+    margin: 0;
+  }
+
+  .privacy-link {
+    font-size: 0.875rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .privacy-link:hover {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 640px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+    }
+  }
+</style>

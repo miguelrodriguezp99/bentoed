@@ -32,15 +32,15 @@ import "../styles/background.css";
       const row = Math.floor(index / numCols);
       const col = index % numCols;
 
-      // Determinar los posibles desplazamientos en filas y columnas
+      // Determine possible row and column offsets
       for (let dRow = -1; dRow <= 1; dRow++) {
         for (let dCol = -1; dCol <= 1; dCol++) {
-          if (dRow === 0 && dCol === 0) continue; // Salta el bloque central
+          if (dRow === 0 && dCol === 0) continue; // Skip the center block
 
           const nRow = row + dRow;
           const nCol = col + dCol;
 
-          // Comprobar los límites para asegurar que los vecinos están dentro de la cuadrícula
+          // Check bounds to ensure neighbors are within the grid
           if (nRow >= 0 && nRow < numRows && nCol >= 0 && nCol < numCols) {
             const nIndex = nRow * numCols + nCol;
             neighbors.push(nIndex);
@@ -53,7 +53,6 @@ import "../styles/background.css";
 
     function highlightRandomNeighbors() {
       const index = parseInt(this.dataset.index);
-      // console.log(index);
 
       const neighbors = calculateNeighbors(index, numCols, numRows);
 
@@ -81,6 +80,5 @@ import "../styles/background.css";
     }
 
     createBlocks();
-    // window.addEventListener("resize", createBlocks);
   });
 </script>

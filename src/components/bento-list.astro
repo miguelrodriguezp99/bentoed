@@ -1,0 +1,11 @@
+---
+import BentoCard from "./bento/bento-card.astro";
+import { allBentos } from "@/data/bentos/registry";
+---
+
+<div id="bento-list">
+  {allBentos.map((bento, index) => (
+    <BentoCard bento={bento} index={index} />
+  ))}
+</div>
+<div id="scroll-sentinel" class="h-10"></div>

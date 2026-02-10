@@ -1,0 +1,255 @@
+{
+  "ui": {
+    "copy": "COPIER",
+    "copied": "Copié dans le presse-papiers !",
+    "all": "Tous",
+    "goToGithub": "Aller sur GitHub",
+    "toggleTheme": "Changer de thème",
+    "bento": "bento",
+    "html": "html",
+    "css": "css",
+    "tailwind": "tailwind",
+    "selectLanguage": "Langue",
+    "buyMeACoffee": "Offrez-moi un café"
+  },
+  "hero": {
+    "title1": "Plus de 40 composants",
+    "title2": "bento-grid modernes.",
+    "subtitle": "Des designs bento grid prêts à l'emploi. Copiez et collez simplement dans votre prochain projet. Conçus avec HTML, CSS et Tailwind CSS."
+  },
+  "seo": {
+    "title": "Bentoed - Plus de 30 composants Bento Grid",
+    "description": "Découvrez plus de 30 designs bento grid gratuits conçus avec HTML, CSS et Tailwind CSS. Composants prêts à copier-coller pour galeries, portfolios, blogs et plus."
+  },
+  "categories": {
+    "gallery": "Galerie",
+    "blog": "Blog",
+    "portfolio": "Portfolio"
+  },
+  "footer": {
+    "privacyPolicy": "Politique de Confidentialité",
+    "rights": "Tous droits réservés"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : Janvier 2025",
+    "backToHome": "← Retour à l'Accueil",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Cette Politique de Confidentialité explique comment Bentoed collecte, utilise et protège vos informations lorsque vous visitez notre site web. Nous nous engageons à garantir la protection de votre vie privée."
+    },
+    "dataCollection": {
+      "title": "Informations que Nous Collectons",
+      "content": "Lorsque vous visitez notre site web, nous pouvons collecter les types d'informations suivants :",
+      "item1": "Informations techniques incluant votre adresse IP, type de navigateur et système d'exploitation",
+      "item2": "Données d'utilisation telles que les pages visitées, le temps passé sur les pages et les modèles de clics",
+      "item3": "Données de cookies et technologies de suivi similaires"
+    },
+    "cookies": {
+      "title": "Cookies et Technologies de Suivi",
+      "content": "Nous utilisons des cookies et des technologies de suivi similaires pour améliorer votre expérience de navigation et analyser le trafic du site. Les cookies sont de petits fichiers texte stockés sur votre appareil qui nous aident à comprendre comment vous utilisez notre site web.",
+      "typesTitle": "Types de Cookies que Nous Utilisons :",
+      "essential": {
+        "name": "Cookies Essentiels :",
+        "desc": "Nécessaires pour les fonctionnalités de base du site web"
+      },
+      "analytics": {
+        "name": "Cookies d'Analyse :",
+        "desc": "Nous aident à comprendre comment les visiteurs interagissent avec notre site web"
+      },
+      "preference": {
+        "name": "Cookies de Préférence :",
+        "desc": "Mémorisent vos paramètres et préférences (langue, thème)"
+      }
+    },
+    "googleAdsense": {
+      "title": "Google AdSense et Cookies Tiers",
+      "content": "Ce site web utilise Google AdSense, un service d'inclusion de publicités de Google Inc. (\"Google\"). Google AdSense utilise des cookies et des balises web pour afficher des publicités basées sur vos visites précédentes à ce site web ou à d'autres sites web.",
+      "dataUsage": "Google utilise des cookies pour diffuser des annonces basées sur vos visites précédentes à notre site web ou à d'autres sites web. L'utilisation de cookies publicitaires par Google permet à Google et à ses partenaires de diffuser des annonces basées sur votre visite à nos sites et/ou à d'autres sites sur Internet.",
+      "optOut": "Vous pouvez refuser la publicité personnalisée en visitant les Paramètres des annonces de Google à l'adresse"
+    },
+    "dataUsage": {
+      "title": "Comment Nous Utilisons Vos Informations",
+      "content": "Nous utilisons les informations collectées pour :",
+      "item1": "Améliorer les fonctionnalités et l'expérience utilisateur de notre site web",
+      "item2": "Analyser le trafic du site web et les modèles d'utilisation",
+      "item3": "Afficher des publicités pertinentes via Google AdSense",
+      "item4": "Mémoriser vos préférences (langue, paramètres de thème)"
+    },
+    "userRights": {
+      "title": "Vos Droits",
+      "content": "Vous avez le droit de :",
+      "item1": "Accéder aux informations personnelles que nous détenons à votre sujet",
+      "item2": "Demander la correction d'informations inexactes",
+      "item3": "Demander la suppression de vos informations personnelles",
+      "item4": "Refuser la publicité personnalisée",
+      "item5": "Désactiver les cookies via les paramètres de votre navigateur"
+    },
+    "cookieManagement": {
+      "title": "Gestion des Cookies",
+      "content": "Vous pouvez contrôler et gérer les cookies de différentes manières. Veuillez noter que la suppression ou le blocage des cookies peut affecter votre expérience utilisateur et certaines fonctionnalités peuvent ne plus être disponibles.",
+      "browserSettings": "La plupart des navigateurs vous permettent de refuser ou d'accepter les cookies. Vous pouvez généralement trouver ces paramètres dans le menu \"Options\" ou \"Préférences\" de votre navigateur."
+    },
+    "dataRetention": {
+      "title": "Conservation des Données",
+      "content": "Nous conservons vos informations uniquement aussi longtemps que nécessaire pour remplir les objectifs décrits dans cette Politique de Confidentialité, sauf si une période de conservation plus longue est requise ou autorisée par la loi. Les données d'analyse et de cookies sont généralement conservées jusqu'à 26 mois."
+    },
+    "thirdParty": {
+      "title": "Services Tiers",
+      "content": "Notre site web peut contenir des liens vers des sites web et services tiers, y compris Google AdSense. Nous ne sommes pas responsables des pratiques de confidentialité de ces tiers. Nous vous encourageons à consulter leurs politiques de confidentialité."
+    },
+    "changes": {
+      "title": "Modifications de Cette Politique",
+      "content": "Nous pouvons mettre à jour cette Politique de Confidentialité de temps en temps. Tous les changements seront publiés sur cette page avec une date de révision mise à jour. Nous vous encourageons à consulter cette Politique de Confidentialité périodiquement."
+    },
+    "contact": {
+      "title": "Informations de Contact",
+      "content": "Si vous avez des questions sur cette Politique de Confidentialité ou sur la manière dont nous traitons vos données, veuillez contacter :"
+    },
+    "footer": {
+      "compliance": "Cette politique de confidentialité est conforme aux exigences du RGPD, du CCPA et de Google AdSense."
+    }
+  },
+  "bentos": {
+    "gallery-grid-4-col": {
+      "name": "Galerie Grille 4-6",
+      "description": "Galerie de 4 images avec disposition en colonnes 4-6-6-4",
+      "tags": ["galerie", "images", "grille", "responsive"]
+    },
+    "gallery-grid-8-item": {
+      "name": "Galerie Grille 8 Éléments",
+      "description": "Galerie responsive de 8 éléments avec colonnes variées",
+      "tags": ["galerie", "images", "grille", "responsive", "8 éléments"]
+    },
+    "gallery-mosaic-9": {
+      "name": "Galerie Mosaïque 9 Éléments",
+      "description": "Galerie mosaïque de 9 éléments avec lignes et colonnes variées",
+      "tags": ["galerie", "images", "mosaïque", "grille", "responsive"]
+    },
+    "gallery-center-tall": {
+      "name": "Galerie Centre Haut",
+      "description": "Galerie de 5 éléments avec colonne centrale mise en avant",
+      "tags": ["galerie", "images", "vedette", "responsive"]
+    },
+    "gallery-asymmetric": {
+      "name": "Galerie Asymétrique",
+      "description": "Galerie asymétrique de 5 éléments avec lignes variées",
+      "tags": ["galerie", "images", "asymétrique", "responsive"]
+    },
+    "gallery-full-width": {
+      "name": "Galerie Pleine Largeur",
+      "description": "Disposition alternée pleine largeur et demi-largeur",
+      "tags": ["galerie", "pleine largeur", "alternée", "hero"]
+    },
+    "gallery-masonry": {
+      "name": "Galerie Maçonnerie",
+      "description": "Galerie style maçonnerie avec tailles variées",
+      "tags": ["galerie", "maçonnerie", "pinterest", "varié"]
+    },
+    "gallery-polaroid": {
+      "name": "Galerie Polaroid",
+      "description": "Galerie avec cartes style polaroid et légendes",
+      "tags": ["galerie", "polaroid", "vintage", "légendes"]
+    },
+    "gallery-cross": {
+      "name": "Galerie Croix",
+      "description": "Motif en croix avec point focal central entouré d'éléments",
+      "tags": ["galerie", "croix", "focal", "responsive"]
+    },
+    "gallery-diamond": {
+      "name": "Galerie Diamant",
+      "description": "Galerie avec motif diamant et éléments centrés",
+      "tags": ["galerie", "diamant", "décalé", "centré", "responsive"]
+    },
+    "gallery-featured-row": {
+      "name": "Galerie Rangée Vedette",
+      "description": "Un grand élément vedette avec des éléments empilés à droite",
+      "tags": ["galerie", "vedette", "asymétrique", "responsive"]
+    },
+    "gallery-film-strip": {
+      "name": "Galerie Pellicule",
+      "description": "Pellicule horizontale avec largeurs variées",
+      "tags": ["galerie", "pellicule", "horizontal", "cinéma"]
+    },
+    "gallery-grid-3-col": {
+      "name": "Galerie 3 Colonnes",
+      "description": "Galerie à 3 colonnes avec hauteurs variées en colonnes CSS",
+      "tags": ["galerie", "maçonnerie", "3 colonnes", "responsive"]
+    },
+    "gallery-grid-mixed": {
+      "name": "Galerie Grille Mixte",
+      "description": "Grille asymétrique avec tailles d'éléments variées",
+      "tags": ["galerie", "grille", "asymétrique", "mixte"]
+    },
+    "gallery-hero-grid": {
+      "name": "Galerie Hero Grille",
+      "description": "Image hero en haut avec grille uniforme en dessous",
+      "tags": ["galerie", "hero", "grille", "responsive"]
+    },
+    "gallery-panoramic": {
+      "name": "Galerie Panoramique",
+      "description": "Bandes panoramiques pleine largeur avec hauteurs variées",
+      "tags": ["galerie", "panoramique", "large", "bandes"]
+    },
+    "gallery-sidebar": {
+      "name": "Galerie Barre Latérale",
+      "description": "Image latérale haute avec grille 3x2 à droite",
+      "tags": ["galerie", "barre latérale", "grille", "responsive"]
+    },
+    "gallery-split": {
+      "name": "Galerie Divisée",
+      "description": "Disposition divisée avec un élément haut et grille 2x2",
+      "tags": ["galerie", "divisée", "grille", "responsive"]
+    },
+    "gallery-spotlight": {
+      "name": "Galerie Spotlight",
+      "description": "Vitrine hero avec vignettes latérales",
+      "tags": ["galerie", "spotlight", "hero", "vedette"]
+    },
+    "gallery-staircase": {
+      "name": "Galerie Escalier",
+      "description": "Galerie avec motif en escalier et placement en cascade",
+      "tags": ["galerie", "escalier", "grille", "responsive"]
+    },
+    "gallery-tiles": {
+      "name": "Galerie Carreaux",
+      "description": "Motif asymétrique de carreaux style tetris",
+      "tags": ["galerie", "carreaux", "tetris", "géométrique"]
+    },
+    "gallery-waterfall": {
+      "name": "Galerie Cascade",
+      "description": "Disposition en cascade style Pinterest",
+      "tags": ["galerie", "maçonnerie", "cascade", "pinterest"]
+    },
+    "gallery-window": {
+      "name": "Galerie Fenêtre",
+      "description": "Grille 3x3 avec vitrine centrale agrandie",
+      "tags": ["galerie", "grille", "vitrine", "fenêtre"]
+    },
+    "gallery-zigzag": {
+      "name": "Galerie Zigzag",
+      "description": "Motif zigzag alternant avec disposition grand-petit-grand",
+      "tags": ["galerie", "zigzag", "alternée", "responsive"]
+    },
+    "blog-magazine": {
+      "name": "Blog Style Magazine",
+      "description": "Mise en page blog style magazine avec article vedette et articles secondaires",
+      "tags": ["blog", "magazine", "articles", "éditorial"]
+    },
+    "blog-photo-journal": {
+      "name": "Journal Photo",
+      "description": "Mise en page blog avec photographie proéminente",
+      "tags": ["blog", "photographie", "journal", "articles"]
+    },
+    "portfolio-grid": {
+      "name": "Portfolio Grille",
+      "description": "Grille 3x2 de cartes projets avec texte superposé",
+      "tags": ["portfolio", "grille", "projets", "superposition"]
+    },
+    "portfolio-image-grid": {
+      "name": "Portfolio Images",
+      "description": "Grille portfolio avec superpositions et détails des projets",
+      "tags": ["portfolio", "projets", "vitrine", "grille"]
+    }
+  }
+}

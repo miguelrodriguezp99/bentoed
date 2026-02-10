@@ -1,0 +1,254 @@
+{
+  "ui": {
+    "copy": "COPIAR",
+    "copied": "Copiado para a área de transferência!",
+    "all": "Todos",
+    "goToGithub": "Ir para o GitHub",
+    "toggleTheme": "Alternar tema",
+    "bento": "bento",
+    "html": "html",
+    "css": "css",
+    "tailwind": "tailwind",
+    "selectLanguage": "Idioma",
+    "buyMeACoffee": "Me pague um café"  },
+  "hero": {
+    "title1": "Mais de 40 componentes",
+    "title2": "bento-grid modernos.",
+    "subtitle": "Designs bento grid prontos para uso. Basta copiar e colar no seu próximo projeto. Criados com HTML, CSS e Tailwind CSS."
+  },
+  "seo": {
+    "title": "Bentoed - Mais de 30 Componentes Bento Grid",
+    "description": "Explore mais de 30 designs bento grid gratuitos criados com HTML, CSS e Tailwind CSS. Componentes prontos para copiar e colar em galerias, portfólios, blogs e mais."
+  },
+  "categories": {
+    "gallery": "Galeria",
+    "blog": "Blog",
+    "portfolio": "Portfólio"
+  },
+  "footer": {
+    "privacyPolicy": "Política de Privacidade",
+    "rights": "Todos os direitos reservados"
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização: Janeiro 2025",
+    "backToHome": "← Voltar ao Início",
+    "introduction": {
+      "title": "Introdução",
+      "content": "Esta Política de Privacidade explica como o Bentoed coleta, usa e protege suas informações quando você visita nosso site. Estamos comprometidos em garantir que sua privacidade seja protegida."
+    },
+    "dataCollection": {
+      "title": "Informações que Coletamos",
+      "content": "Quando você visita nosso site, podemos coletar os seguintes tipos de informações:",
+      "item1": "Informações técnicas incluindo seu endereço IP, tipo de navegador e sistema operacional",
+      "item2": "Dados de uso como páginas visitadas, tempo gasto nas páginas e padrões de cliques",
+      "item3": "Dados de cookies e tecnologias de rastreamento similares"
+    },
+    "cookies": {
+      "title": "Cookies e Tecnologias de Rastreamento",
+      "content": "Usamos cookies e tecnologias de rastreamento similares para melhorar sua experiência de navegação e analisar o tráfego do site. Cookies são pequenos arquivos de texto armazenados em seu dispositivo que nos ajudam a entender como você usa nosso site.",
+      "typesTitle": "Tipos de Cookies que Usamos:",
+      "essential": {
+        "name": "Cookies Essenciais:",
+        "desc": "Necessários para funcionalidade básica do site"
+      },
+      "analytics": {
+        "name": "Cookies de Análise:",
+        "desc": "Nos ajudam a entender como os visitantes interagem com nosso site"
+      },
+      "preference": {
+        "name": "Cookies de Preferência:",
+        "desc": "Lembram suas configurações e preferências (idioma, tema)"
+      }
+    },
+    "googleAdsense": {
+      "title": "Google AdSense e Cookies de Terceiros",
+      "content": "Este site usa o Google AdSense, um serviço para incluir anúncios do Google Inc. (\"Google\"). O Google AdSense usa cookies e web beacons para exibir anúncios com base em suas visitas anteriores a este site ou outros sites.",
+      "dataUsage": "O Google usa cookies para veicular anúncios com base em suas visitas anteriores ao nosso site ou outros sites. O uso de cookies publicitários pelo Google permite que ele e seus parceiros veiculem anúncios com base em sua visita aos nossos sites e/ou outros sites na Internet.",
+      "optOut": "Você pode optar por não receber publicidade personalizada visitando as Configurações de anúncios do Google em"
+    },
+    "dataUsage": {
+      "title": "Como Usamos Suas Informações",
+      "content": "Usamos as informações coletadas para:",
+      "item1": "Melhorar a funcionalidade e a experiência do usuário do nosso site",
+      "item2": "Analisar o tráfego do site e padrões de uso",
+      "item3": "Exibir anúncios relevantes através do Google AdSense",
+      "item4": "Lembrar suas preferências (idioma, configurações de tema)"
+    },
+    "userRights": {
+      "title": "Seus Direitos",
+      "content": "Você tem o direito de:",
+      "item1": "Acessar as informações pessoais que temos sobre você",
+      "item2": "Solicitar correção de informações imprecisas",
+      "item3": "Solicitar exclusão de suas informações pessoais",
+      "item4": "Optar por não receber publicidade personalizada",
+      "item5": "Desativar cookies através das configurações do seu navegador"
+    },
+    "cookieManagement": {
+      "title": "Gerenciamento de Cookies",
+      "content": "Você pode controlar e gerenciar cookies de várias maneiras. Observe que remover ou bloquear cookies pode afetar sua experiência de usuário e algumas funcionalidades podem não estar mais disponíveis.",
+      "browserSettings": "A maioria dos navegadores permite que você recuse ou aceite cookies. Geralmente você pode encontrar essas configurações no menu \"Opções\" ou \"Preferências\" do seu navegador."
+    },
+    "dataRetention": {
+      "title": "Retenção de Dados",
+      "content": "Retemos suas informações apenas pelo tempo necessário para cumprir os propósitos descritos nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei. Dados de análise e cookies são normalmente retidos por até 26 meses."
+    },
+    "thirdParty": {
+      "title": "Serviços de Terceiros",
+      "content": "Nosso site pode conter links para sites e serviços de terceiros, incluindo o Google AdSense. Não somos responsáveis pelas práticas de privacidade desses terceiros. Encorajamos você a revisar suas políticas de privacidade."
+    },
+    "changes": {
+      "title": "Alterações a Esta Política",
+      "content": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Quaisquer alterações serão publicadas nesta página com uma data de revisão atualizada. Encorajamos você a revisar esta Política de Privacidade periodicamente."
+    },
+    "contact": {
+      "title": "Informações de Contato",
+      "content": "Se você tiver alguma dúvida sobre esta Política de Privacidade ou como lidamos com seus dados, entre em contato:"
+    },
+    "footer": {
+      "compliance": "Esta política de privacidade está em conformidade com os requisitos do GDPR, CCPA e Google AdSense."
+    }
+  },
+  "bentos": {
+    "gallery-grid-4-col": {
+      "name": "Galeria Grade 4-6",
+      "description": "Galeria de 4 imagens com divisão de colunas 4-6-6-4",
+      "tags": ["galeria", "imagens", "grade", "responsivo"]
+    },
+    "gallery-grid-8-item": {
+      "name": "Galeria Grade 8 Itens",
+      "description": "Galeria responsiva de 8 itens com colunas variadas",
+      "tags": ["galeria", "imagens", "grade", "responsivo", "8 itens"]
+    },
+    "gallery-mosaic-9": {
+      "name": "Galeria Mosaico 9 Itens",
+      "description": "Galeria mosaico de 9 itens com linhas e colunas variadas",
+      "tags": ["galeria", "imagens", "mosaico", "grade", "responsivo"]
+    },
+    "gallery-center-tall": {
+      "name": "Galeria Centro Alto",
+      "description": "Galeria de 5 itens com coluna central em destaque",
+      "tags": ["galeria", "imagens", "destaque", "responsivo"]
+    },
+    "gallery-asymmetric": {
+      "name": "Galeria Assimétrica",
+      "description": "Galeria assimétrica de 5 itens com linhas variadas",
+      "tags": ["galeria", "imagens", "assimétrica", "responsivo"]
+    },
+    "gallery-full-width": {
+      "name": "Galeria Largura Total",
+      "description": "Layout alternado de largura total e meia largura",
+      "tags": ["galeria", "largura total", "alternado", "hero"]
+    },
+    "gallery-masonry": {
+      "name": "Galeria Alvenaria",
+      "description": "Galeria estilo alvenaria com tamanhos variados",
+      "tags": ["galeria", "alvenaria", "pinterest", "variado"]
+    },
+    "gallery-polaroid": {
+      "name": "Galeria Polaroid",
+      "description": "Galeria com cartões estilo polaroid e legendas",
+      "tags": ["galeria", "polaroid", "vintage", "legendas"]
+    },
+    "gallery-cross": {
+      "name": "Galeria Cruz",
+      "description": "Padrão em cruz com ponto focal central rodeado de itens",
+      "tags": ["galeria", "cruz", "focal", "responsivo"]
+    },
+    "gallery-diamond": {
+      "name": "Galeria Diamante",
+      "description": "Galeria com padrão diamante e itens centralizados",
+      "tags": ["galeria", "diamante", "deslocado", "centralizado", "responsivo"]
+    },
+    "gallery-featured-row": {
+      "name": "Galeria Linha em Destaque",
+      "description": "Um item grande em destaque com itens empilhados à direita",
+      "tags": ["galeria", "destaque", "assimétrica", "responsivo"]
+    },
+    "gallery-film-strip": {
+      "name": "Galeria Fita de Filme",
+      "description": "Fita de filme horizontal com larguras variadas",
+      "tags": ["galeria", "fita de filme", "horizontal", "cinema"]
+    },
+    "gallery-grid-3-col": {
+      "name": "Galeria 3 Colunas",
+      "description": "Galeria de 3 colunas com alturas variadas usando colunas CSS",
+      "tags": ["galeria", "alvenaria", "3 colunas", "responsivo"]
+    },
+    "gallery-grid-mixed": {
+      "name": "Galeria Grade Mista",
+      "description": "Grade assimétrica com tamanhos de itens variados",
+      "tags": ["galeria", "grade", "assimétrica", "mista"]
+    },
+    "gallery-hero-grid": {
+      "name": "Galeria Hero Grade",
+      "description": "Imagem hero no topo com grade uniforme abaixo",
+      "tags": ["galeria", "hero", "grade", "responsivo"]
+    },
+    "gallery-panoramic": {
+      "name": "Galeria Panorâmica",
+      "description": "Faixas panorâmicas de largura total com alturas variadas",
+      "tags": ["galeria", "panorâmica", "larga", "faixas"]
+    },
+    "gallery-sidebar": {
+      "name": "Galeria com Barra Lateral",
+      "description": "Imagem lateral alta com grade 3x2 à direita",
+      "tags": ["galeria", "barra lateral", "grade", "responsivo"]
+    },
+    "gallery-split": {
+      "name": "Galeria Dividida",
+      "description": "Layout dividido com um item alto e grade 2x2",
+      "tags": ["galeria", "dividida", "grade", "responsivo"]
+    },
+    "gallery-spotlight": {
+      "name": "Galeria Spotlight",
+      "description": "Vitrine hero com miniaturas laterais",
+      "tags": ["galeria", "spotlight", "hero", "destaque"]
+    },
+    "gallery-staircase": {
+      "name": "Galeria Escadaria",
+      "description": "Galeria com padrão de escadaria e posicionamento em cascata",
+      "tags": ["galeria", "escadaria", "grade", "responsivo"]
+    },
+    "gallery-tiles": {
+      "name": "Galeria de Azulejos",
+      "description": "Padrão assimétrico de azulejos estilo tetris",
+      "tags": ["galeria", "azulejos", "tetris", "geométrico"]
+    },
+    "gallery-waterfall": {
+      "name": "Galeria Cascata",
+      "description": "Layout em cascata estilo Pinterest",
+      "tags": ["galeria", "alvenaria", "cascata", "pinterest"]
+    },
+    "gallery-window": {
+      "name": "Galeria Janela",
+      "description": "Grade 3x3 com vitrine central ampliada",
+      "tags": ["galeria", "grade", "vitrine", "janela"]
+    },
+    "gallery-zigzag": {
+      "name": "Galeria Zigue-Zague",
+      "description": "Padrão zigue-zague alternado com layout grande-pequeno-grande",
+      "tags": ["galeria", "zigue-zague", "alternado", "responsivo"]
+    },
+    "blog-magazine": {
+      "name": "Blog Estilo Revista",
+      "description": "Layout de blog estilo revista com artigo em destaque e artigos menores",
+      "tags": ["blog", "revista", "artigos", "editorial"]
+    },
+    "blog-photo-journal": {
+      "name": "Diário Fotográfico",
+      "description": "Layout de blog com fotografia proeminente",
+      "tags": ["blog", "fotografia", "diário", "artigos"]
+    },
+    "portfolio-grid": {
+      "name": "Portfólio Grade",
+      "description": "Grade 3x2 de cartões de projetos com texto sobreposto",
+      "tags": ["portfólio", "grade", "projetos", "sobreposição"]
+    },
+    "portfolio-image-grid": {
+      "name": "Portfólio de Imagens",
+      "description": "Grade de portfólio com sobreposições e detalhes dos projetos",
+      "tags": ["portfólio", "projetos", "vitrine", "grade"]
+    }
+  }
+}

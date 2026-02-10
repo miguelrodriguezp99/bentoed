@@ -1,0 +1,254 @@
+{
+  "ui": {
+    "copy": "KOPYALA",
+    "copied": "Panoya kopyalandı!",
+    "all": "Tümü",
+    "goToGithub": "GitHub'a git",
+    "toggleTheme": "Temayı değiştir",
+    "bento": "bento",
+    "html": "html",
+    "css": "css",
+    "tailwind": "tailwind",
+    "selectLanguage": "Dil",
+    "buyMeACoffee": "Bana bir kahve ısmarla"  },
+  "hero": {
+    "title1": "40'tan fazla modern",
+    "title2": "bento-grid bileşeni.",
+    "subtitle": "Kullanıma hazır bento grid tasarımları. Bir sonraki projenize kopyalayıp yapıştırmanız yeterli. HTML, CSS ve Tailwind CSS ile hazırlanmıştır."
+  },
+  "seo": {
+    "title": "Bentoed - 30'dan Fazla Bento Grid Bileşeni",
+    "description": "HTML, CSS ve Tailwind CSS ile hazırlanmış 30'dan fazla ücretsiz bento grid tasarımını keşfedin. Galeriler, portfolyolar, bloglar ve daha fazlası için kopyala-yapıştır bileşenler."
+  },
+  "categories": {
+    "gallery": "Galeri",
+    "blog": "Blog",
+    "portfolio": "Portfolyo"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "rights": "All rights reserved"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "backToHome": "← Back to Home",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This Privacy Policy explains how Bentoed collects, uses, and protects your information when you visit our website. We are committed to ensuring that your privacy is protected."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "content": "When you visit our website, we may collect the following types of information:",
+      "item1": "Technical information including your IP address, browser type, and operating system",
+      "item2": "Usage data such as pages visited, time spent on pages, and click patterns",
+      "item3": "Cookie data and similar tracking technologies"
+    },
+    "cookies": {
+      "title": "Cookies and Tracking Technologies",
+      "content": "We use cookies and similar tracking technologies to improve your browsing experience and analyze site traffic. Cookies are small text files stored on your device that help us understand how you use our website.",
+      "typesTitle": "Types of Cookies We Use:",
+      "essential": {
+        "name": "Essential Cookies:",
+        "desc": "Required for basic website functionality"
+      },
+      "analytics": {
+        "name": "Analytics Cookies:",
+        "desc": "Help us understand how visitors interact with our website"
+      },
+      "preference": {
+        "name": "Preference Cookies:",
+        "desc": "Remember your settings and preferences (language, theme)"
+      }
+    },
+    "googleAdsense": {
+      "title": "Google AdSense and Third-Party Cookies",
+      "content": "This website uses Google AdSense, a service for including advertisements from Google Inc. (\"Google\"). Google AdSense uses cookies and web beacons to display advertisements based on your previous visits to this website or other websites.",
+      "dataUsage": "Google uses cookies to serve ads based on your prior visits to our website or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our sites and/or other sites on the Internet.",
+      "optOut": "You may opt out of personalized advertising by visiting Google's Ads Settings at"
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "content": "We use the collected information to:",
+      "item1": "Improve our website's functionality and user experience",
+      "item2": "Analyze website traffic and usage patterns",
+      "item3": "Display relevant advertisements through Google AdSense",
+      "item4": "Remember your preferences (language, theme settings)"
+    },
+    "userRights": {
+      "title": "Your Rights",
+      "content": "You have the right to:",
+      "item1": "Access the personal information we hold about you",
+      "item2": "Request correction of inaccurate information",
+      "item3": "Request deletion of your personal information",
+      "item4": "Opt out of personalized advertising",
+      "item5": "Disable cookies through your browser settings"
+    },
+    "cookieManagement": {
+      "title": "Managing Cookies",
+      "content": "You can control and manage cookies in various ways. Please note that removing or blocking cookies may impact your user experience and some functionality may no longer be available.",
+      "browserSettings": "Most browsers allow you to refuse or accept cookies. You can usually find these settings in your browser's \"Options\" or \"Preferences\" menu."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. Analytics and cookie data are typically retained for up to 26 months."
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "content": "Our website may contain links to third-party websites and services, including Google AdSense. We are not responsible for the privacy practices of these third parties. We encourage you to review their privacy policies."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this Privacy Policy periodically."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "If you have any questions about this Privacy Policy or how we handle your data, please contact:"
+    },
+    "footer": {
+      "compliance": "This privacy policy is compliant with GDPR, CCPA, and Google AdSense requirements."
+    }
+  },
+  "bentos": {
+    "gallery-grid-4-col": {
+      "name": "Galeri Izgara 4-6",
+      "description": "4-6-6-4 sütun düzenli 4 öğeli görsel galerisi",
+      "tags": ["galeri", "görseller", "ızgara", "duyarlı"]
+    },
+    "gallery-grid-8-item": {
+      "name": "Galeri Izgara 8 Öğe",
+      "description": "Çeşitli sütun genişliklerine sahip 8 öğeli duyarlı galeri",
+      "tags": ["galeri", "görseller", "ızgara", "duyarlı", "8 öğe"]
+    },
+    "gallery-mosaic-9": {
+      "name": "Mozaik Galeri 9 Öğe",
+      "description": "Çeşitli satır ve sütunlara sahip 9 öğeli mozaik galeri",
+      "tags": ["galeri", "görseller", "mozaik", "ızgara", "duyarlı"]
+    },
+    "gallery-center-tall": {
+      "name": "Galeri Yüksek Merkez",
+      "description": "Yüksek merkez sütunlu 5 öğeli galeri",
+      "tags": ["galeri", "görseller", "öne çıkan", "duyarlı"]
+    },
+    "gallery-asymmetric": {
+      "name": "Asimetrik Galeri",
+      "description": "Çeşitli satır yüksekliklerine sahip 5 öğeli asimetrik galeri",
+      "tags": ["galeri", "görseller", "asimetrik", "duyarlı"]
+    },
+    "gallery-full-width": {
+      "name": "Tam Genişlik Galeri",
+      "description": "Tam ve yarım genişlikte dönüşümlü düzen",
+      "tags": ["galeri", "tam genişlik", "dönüşümlü", "hero"]
+    },
+    "gallery-masonry": {
+      "name": "Tuğla Örme Galeri",
+      "description": "Çeşitli boyutlarda tuğla örme stili galeri",
+      "tags": ["galeri", "tuğla örme", "pinterest", "çeşitli"]
+    },
+    "gallery-polaroid": {
+      "name": "Polaroid Galeri",
+      "description": "Polaroid tarzı kartlar ve altyazılarla galeri",
+      "tags": ["galeri", "polaroid", "vintage", "altyazılar"]
+    },
+    "gallery-cross": {
+      "name": "Çapraz Galeri",
+      "description": "Merkezi odak noktası etrafında öğelerle çapraz desen",
+      "tags": ["galeri", "çapraz", "odak", "duyarlı"]
+    },
+    "gallery-diamond": {
+      "name": "Elmas Galeri",
+      "description": "Ortalanmış öğelerle elmas desenli galeri",
+      "tags": ["galeri", "elmas", "kaydırılmış", "ortalanmış", "duyarlı"]
+    },
+    "gallery-featured-row": {
+      "name": "Öne Çıkan Satır Galerisi",
+      "description": "Sağda küçük öğelerle büyük bir öne çıkan öğe",
+      "tags": ["galeri", "öne çıkan", "asimetrik", "duyarlı"]
+    },
+    "gallery-film-strip": {
+      "name": "Film Şeridi Galerisi",
+      "description": "Çeşitli genişliklerde yatay film şeridi",
+      "tags": ["galeri", "film şeridi", "yatay", "sinema"]
+    },
+    "gallery-grid-3-col": {
+      "name": "3 Sütunlu Galeri",
+      "description": "CSS sütunları ile çeşitli yüksekliklerde 3 sütunlu galeri",
+      "tags": ["galeri", "tuğla örme", "3 sütun", "duyarlı"]
+    },
+    "gallery-grid-mixed": {
+      "name": "Karışık Izgara Galeri",
+      "description": "Çeşitli öğe boyutlarıyla asimetrik ızgara",
+      "tags": ["galeri", "ızgara", "asimetrik", "karışık"]
+    },
+    "gallery-hero-grid": {
+      "name": "Hero Izgara Galeri",
+      "description": "Üstte hero görsel, altta düzenli ızgara",
+      "tags": ["galeri", "hero", "ızgara", "duyarlı"]
+    },
+    "gallery-panoramic": {
+      "name": "Panoramik Galeri",
+      "description": "Çeşitli yüksekliklerde tam genişlik panoramik şeritler",
+      "tags": ["galeri", "panoramik", "geniş", "şeritler"]
+    },
+    "gallery-sidebar": {
+      "name": "Kenar Çubuğu Galerisi",
+      "description": "Yüksek yan görsel ile sağda 3x2 ızgara",
+      "tags": ["galeri", "kenar çubuğu", "ızgara", "duyarlı"]
+    },
+    "gallery-split": {
+      "name": "Bölünmüş Galeri",
+      "description": "Bir yüksek öğe ve 2x2 ızgara ile bölünmüş düzen",
+      "tags": ["galeri", "bölünmüş", "ızgara", "duyarlı"]
+    },
+    "gallery-spotlight": {
+      "name": "Spotlight Galeri",
+      "description": "Yan küçük resimlerle hero vitrin",
+      "tags": ["galeri", "spotlight", "hero", "öne çıkan"]
+    },
+    "gallery-staircase": {
+      "name": "Merdiven Galerisi",
+      "description": "Kademeli yerleşimli merdiven desenli galeri",
+      "tags": ["galeri", "merdiven", "ızgara", "duyarlı"]
+    },
+    "gallery-tiles": {
+      "name": "Karo Galerisi",
+      "description": "Tetris tarzı asimetrik karo deseni",
+      "tags": ["galeri", "karolar", "tetris", "geometrik"]
+    },
+    "gallery-waterfall": {
+      "name": "Şelale Galerisi",
+      "description": "Pinterest tarzı şelale düzeni",
+      "tags": ["galeri", "tuğla örme", "şelale", "pinterest"]
+    },
+    "gallery-window": {
+      "name": "Pencere Galerisi",
+      "description": "Büyütülmüş merkezi vitrinle 3x3 ızgara",
+      "tags": ["galeri", "ızgara", "vitrin", "pencere"]
+    },
+    "gallery-zigzag": {
+      "name": "Zikzak Galerisi",
+      "description": "Büyük-küçük-büyük düzenli dönüşümlü zikzak deseni",
+      "tags": ["galeri", "zikzak", "dönüşümlü", "duyarlı"]
+    },
+    "blog-magazine": {
+      "name": "Dergi Tarzı Blog",
+      "description": "Öne çıkan makale ve küçük makalelerle dergi tarzı blog düzeni",
+      "tags": ["blog", "dergi", "makaleler", "editöryal"]
+    },
+    "blog-photo-journal": {
+      "name": "Foto Günlük",
+      "description": "Belirgin fotoğrafçılıklı blog düzeni",
+      "tags": ["blog", "fotoğrafçılık", "günlük", "makaleler"]
+    },
+    "portfolio-grid": {
+      "name": "Portfolyo Izgara",
+      "description": "Üst metin katmanlı 3x2 proje kartı ızgarası",
+      "tags": ["portfolyo", "ızgara", "projeler", "katman"]
+    },
+    "portfolio-image-grid": {
+      "name": "Görsel Portfolyo",
+      "description": "Görsel katmanları ve proje detaylarıyla portfolyo ızgarası",
+      "tags": ["portfolyo", "projeler", "vitrin", "ızgara"]
+    }
+  }
+}

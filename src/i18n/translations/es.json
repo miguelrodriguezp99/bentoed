@@ -1,0 +1,255 @@
+{
+  "ui": {
+    "copy": "COPIAR",
+    "copied": "¡Copiado al portapapeles!",
+    "all": "Todos",
+    "goToGithub": "Ir a GitHub",
+    "toggleTheme": "Cambiar tema",
+    "bento": "bento",
+    "html": "html",
+    "css": "css",
+    "tailwind": "tailwind",
+    "selectLanguage": "Idioma",
+    "buyMeACoffee": "Invítame un café"
+  },
+  "hero": {
+    "title1": "Más de 40 componentes",
+    "title2": "bento-grid modernos.",
+    "subtitle": "Diseños bento grid listos para usar. Simplemente copia y pega en tu próximo proyecto. Creados con HTML, CSS y Tailwind CSS."
+  },
+  "seo": {
+    "title": "Bentoed - Más de 30 componentes Bento Grid",
+    "description": "Explora más de 30 diseños bento grid gratuitos creados con HTML, CSS y Tailwind CSS. Componentes listos para copiar y pegar en galerías, portafolios, blogs y más."
+  },
+  "categories": {
+    "gallery": "Galería",
+    "blog": "Blog",
+    "portfolio": "Portafolio"
+  },
+  "footer": {
+    "privacyPolicy": "Política de Privacidad",
+    "rights": "Todos los derechos reservados"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Enero 2025",
+    "backToHome": "← Volver al Inicio",
+    "introduction": {
+      "title": "Introducción",
+      "content": "Esta Política de Privacidad explica cómo Bentoed recopila, utiliza y protege su información cuando visita nuestro sitio web. Estamos comprometidos a garantizar que su privacidad esté protegida."
+    },
+    "dataCollection": {
+      "title": "Información que Recopilamos",
+      "content": "Cuando visita nuestro sitio web, podemos recopilar los siguientes tipos de información:",
+      "item1": "Información técnica que incluye su dirección IP, tipo de navegador y sistema operativo",
+      "item2": "Datos de uso como páginas visitadas, tiempo dedicado a las páginas y patrones de clics",
+      "item3": "Datos de cookies y tecnologías de seguimiento similares"
+    },
+    "cookies": {
+      "title": "Cookies y Tecnologías de Seguimiento",
+      "content": "Utilizamos cookies y tecnologías de seguimiento similares para mejorar su experiencia de navegación y analizar el tráfico del sitio. Las cookies son pequeños archivos de texto almacenados en su dispositivo que nos ayudan a comprender cómo utiliza nuestro sitio web.",
+      "typesTitle": "Tipos de Cookies que Utilizamos:",
+      "essential": {
+        "name": "Cookies Esenciales:",
+        "desc": "Requeridas para la funcionalidad básica del sitio web"
+      },
+      "analytics": {
+        "name": "Cookies de Análisis:",
+        "desc": "Nos ayudan a comprender cómo los visitantes interactúan con nuestro sitio web"
+      },
+      "preference": {
+        "name": "Cookies de Preferencias:",
+        "desc": "Recuerdan su configuración y preferencias (idioma, tema)"
+      }
+    },
+    "googleAdsense": {
+      "title": "Google AdSense y Cookies de Terceros",
+      "content": "Este sitio web utiliza Google AdSense, un servicio para incluir anuncios de Google Inc. (\"Google\"). Google AdSense utiliza cookies y balizas web para mostrar anuncios basados en sus visitas previas a este sitio web u otros sitios web.",
+      "dataUsage": "Google utiliza cookies para mostrar anuncios basados en sus visitas previas a nuestro sitio web u otros sitios web. El uso de cookies publicitarias de Google le permite a Google y a sus socios mostrar anuncios basados en su visita a nuestros sitios y/u otros sitios en Internet.",
+      "optOut": "Puede optar por no recibir publicidad personalizada visitando la Configuración de anuncios de Google en"
+    },
+    "dataUsage": {
+      "title": "Cómo Utilizamos su Información",
+      "content": "Utilizamos la información recopilada para:",
+      "item1": "Mejorar la funcionalidad y la experiencia del usuario de nuestro sitio web",
+      "item2": "Analizar el tráfico del sitio web y los patrones de uso",
+      "item3": "Mostrar anuncios relevantes a través de Google AdSense",
+      "item4": "Recordar sus preferencias (idioma, configuración del tema)"
+    },
+    "userRights": {
+      "title": "Sus Derechos",
+      "content": "Usted tiene derecho a:",
+      "item1": "Acceder a la información personal que tenemos sobre usted",
+      "item2": "Solicitar la corrección de información inexacta",
+      "item3": "Solicitar la eliminación de su información personal",
+      "item4": "Optar por no recibir publicidad personalizada",
+      "item5": "Deshabilitar las cookies a través de la configuración de su navegador"
+    },
+    "cookieManagement": {
+      "title": "Gestión de Cookies",
+      "content": "Puede controlar y gestionar las cookies de varias maneras. Tenga en cuenta que eliminar o bloquear las cookies puede afectar su experiencia de usuario y algunas funcionalidades pueden dejar de estar disponibles.",
+      "browserSettings": "La mayoría de los navegadores le permiten rechazar o aceptar cookies. Generalmente puede encontrar estas configuraciones en el menú \"Opciones\" o \"Preferencias\" de su navegador."
+    },
+    "dataRetention": {
+      "title": "Retención de Datos",
+      "content": "Conservamos su información solo durante el tiempo necesario para cumplir con los propósitos descritos en esta Política de Privacidad, a menos que la ley exija o permita un período de retención más largo. Los datos de análisis y cookies generalmente se conservan hasta por 26 meses."
+    },
+    "thirdParty": {
+      "title": "Servicios de Terceros",
+      "content": "Nuestro sitio web puede contener enlaces a sitios web y servicios de terceros, incluido Google AdSense. No somos responsables de las prácticas de privacidad de estos terceros. Le recomendamos que revise sus políticas de privacidad."
+    },
+    "changes": {
+      "title": "Cambios a esta Política",
+      "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Cualquier cambio se publicará en esta página con una fecha de revisión actualizada. Le recomendamos que revise esta Política de Privacidad periódicamente."
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "content": "Si tiene alguna pregunta sobre esta Política de Privacidad o cómo manejamos sus datos, por favor contacte:"
+    },
+    "footer": {
+      "compliance": "Esta política de privacidad cumple con los requisitos de GDPR, CCPA y Google AdSense."
+    }
+  },
+  "bentos": {
+    "gallery-grid-4-col": {
+      "name": "Galería Grid 4-6",
+      "description": "Galería de 4 imágenes con distribución de columnas 4-6-6-4",
+      "tags": ["galería", "imágenes", "grid", "responsive"]
+    },
+    "gallery-grid-8-item": {
+      "name": "Galería Grid 8 Elementos",
+      "description": "Galería responsive de 8 elementos con columnas variadas",
+      "tags": ["galería", "imágenes", "grid", "responsive", "8 elementos"]
+    },
+    "gallery-mosaic-9": {
+      "name": "Galería Mosaico 9 Elementos",
+      "description": "Galería mosaico de 9 elementos con filas y columnas variadas",
+      "tags": ["galería", "imágenes", "mosaico", "grid", "responsive"]
+    },
+    "gallery-center-tall": {
+      "name": "Galería Centro Alto",
+      "description": "Galería de 5 elementos con columna central destacada",
+      "tags": ["galería", "imágenes", "destacado", "responsive"]
+    },
+    "gallery-asymmetric": {
+      "name": "Galería Asimétrica",
+      "description": "Galería asimétrica de 5 elementos con filas variadas",
+      "tags": ["galería", "imágenes", "asimétrica", "responsive"]
+    },
+    "gallery-full-width": {
+      "name": "Galería Ancho Completo",
+      "description": "Disposición alternada de ancho completo y medio ancho",
+      "tags": ["galería", "ancho completo", "alternado", "hero"]
+    },
+    "gallery-masonry": {
+      "name": "Galería Mampostería",
+      "description": "Galería estilo mampostería con tamaños variados",
+      "tags": ["galería", "mampostería", "pinterest", "variado"]
+    },
+    "gallery-polaroid": {
+      "name": "Galería Polaroid",
+      "description": "Galería con tarjetas estilo polaroid y subtítulos",
+      "tags": ["galería", "polaroid", "vintage", "subtítulos"]
+    },
+    "gallery-cross": {
+      "name": "Galería Cruz",
+      "description": "Patrón en cruz con punto focal central rodeado de elementos",
+      "tags": ["galería", "cruz", "focal", "responsive"]
+    },
+    "gallery-diamond": {
+      "name": "Galería Diamante",
+      "description": "Galería con patrón de diamante y elementos centrados",
+      "tags": ["galería", "diamante", "desplazado", "centrado", "responsive"]
+    },
+    "gallery-featured-row": {
+      "name": "Galería Fila Destacada",
+      "description": "Un elemento grande destacado con elementos apilados a la derecha",
+      "tags": ["galería", "destacado", "asimétrica", "responsive"]
+    },
+    "gallery-film-strip": {
+      "name": "Galería Tira de Película",
+      "description": "Tira de película horizontal con anchos variados",
+      "tags": ["galería", "tira de película", "horizontal", "cine"]
+    },
+    "gallery-grid-3-col": {
+      "name": "Galería 3 Columnas",
+      "description": "Galería de 3 columnas con alturas variadas usando columnas CSS",
+      "tags": ["galería", "mampostería", "3 columnas", "responsive"]
+    },
+    "gallery-grid-mixed": {
+      "name": "Galería Grid Mixta",
+      "description": "Grid asimétrico con tamaños de elementos variados",
+      "tags": ["galería", "grid", "asimétrica", "mixta"]
+    },
+    "gallery-hero-grid": {
+      "name": "Galería Hero Grid",
+      "description": "Imagen hero en la parte superior con grid uniforme debajo",
+      "tags": ["galería", "hero", "grid", "responsive"]
+    },
+    "gallery-panoramic": {
+      "name": "Galería Panorámica",
+      "description": "Franjas panorámicas de ancho completo con alturas variadas",
+      "tags": ["galería", "panorámica", "ancha", "franjas"]
+    },
+    "gallery-sidebar": {
+      "name": "Galería con Barra Lateral",
+      "description": "Imagen lateral alta con grid 3x2 a la derecha",
+      "tags": ["galería", "barra lateral", "grid", "responsive"]
+    },
+    "gallery-split": {
+      "name": "Galería Dividida",
+      "description": "Disposición dividida con un elemento alto y grid 2x2",
+      "tags": ["galería", "dividida", "grid", "responsive"]
+    },
+    "gallery-spotlight": {
+      "name": "Galería Spotlight",
+      "description": "Vitrina hero con miniaturas laterales",
+      "tags": ["galería", "spotlight", "hero", "destacado"]
+    },
+    "gallery-staircase": {
+      "name": "Galería Escalera",
+      "description": "Galería con patrón de escalera y colocación en cascada",
+      "tags": ["galería", "escalera", "grid", "responsive"]
+    },
+    "gallery-tiles": {
+      "name": "Galería de Mosaicos",
+      "description": "Patrón asimétrico de mosaicos estilo tetris",
+      "tags": ["galería", "mosaicos", "tetris", "geométrico"]
+    },
+    "gallery-waterfall": {
+      "name": "Galería Cascada",
+      "description": "Disposición en cascada estilo Pinterest",
+      "tags": ["galería", "mampostería", "cascada", "pinterest"]
+    },
+    "gallery-window": {
+      "name": "Galería Ventana",
+      "description": "Grid 3x3 con vitrina central ampliada",
+      "tags": ["galería", "grid", "vitrina", "ventana"]
+    },
+    "gallery-zigzag": {
+      "name": "Galería Zigzag",
+      "description": "Patrón zigzag alternado con disposición grande-pequeño-grande",
+      "tags": ["galería", "zigzag", "alternado", "responsive"]
+    },
+    "blog-magazine": {
+      "name": "Blog Estilo Revista",
+      "description": "Diseño de blog estilo revista con artículo destacado y artículos menores",
+      "tags": ["blog", "revista", "artículos", "editorial"]
+    },
+    "blog-photo-journal": {
+      "name": "Diario Fotográfico",
+      "description": "Diseño de blog con fotografía prominente",
+      "tags": ["blog", "fotografía", "diario", "artículos"]
+    },
+    "portfolio-grid": {
+      "name": "Portafolio Grid",
+      "description": "Grid 3x2 de tarjetas de proyectos con texto superpuesto",
+      "tags": ["portafolio", "grid", "proyectos", "superposición"]
+    },
+    "portfolio-image-grid": {
+      "name": "Portafolio de Imágenes",
+      "description": "Grid de portafolio con superposiciones y detalles de proyectos",
+      "tags": ["portafolio", "proyectos", "vitrina", "grid"]
+    }
+  }
+}

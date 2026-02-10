@@ -1,0 +1,254 @@
+{
+  "ui": {
+    "copy": "KOPIUJ",
+    "copied": "Skopiowano do schowka!",
+    "all": "Wszystkie",
+    "goToGithub": "Przejdź do GitHub",
+    "toggleTheme": "Zmień motyw",
+    "bento": "bento",
+    "html": "html",
+    "css": "css",
+    "tailwind": "tailwind",
+    "selectLanguage": "Język",
+    "buyMeACoffee": "Postaw mi kawę"  },
+  "hero": {
+    "title1": "Ponad 40 nowoczesnych",
+    "title2": "komponentów bento-grid.",
+    "subtitle": "Gotowe do użycia projekty bento grid. Wystarczy skopiować i wkleić do następnego projektu. Stworzone z HTML, CSS i Tailwind CSS."
+  },
+  "seo": {
+    "title": "Bentoed - Ponad 30 komponentów Bento Grid",
+    "description": "Przeglądaj ponad 30 darmowych projektów bento grid stworzonych z HTML, CSS i Tailwind CSS. Komponenty gotowe do skopiowania i wklejenia do galerii, portfolio, blogów i nie tylko."
+  },
+  "categories": {
+    "gallery": "Galeria",
+    "blog": "Blog",
+    "portfolio": "Portfolio"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "rights": "All rights reserved"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "backToHome": "← Back to Home",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This Privacy Policy explains how Bentoed collects, uses, and protects your information when you visit our website. We are committed to ensuring that your privacy is protected."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "content": "When you visit our website, we may collect the following types of information:",
+      "item1": "Technical information including your IP address, browser type, and operating system",
+      "item2": "Usage data such as pages visited, time spent on pages, and click patterns",
+      "item3": "Cookie data and similar tracking technologies"
+    },
+    "cookies": {
+      "title": "Cookies and Tracking Technologies",
+      "content": "We use cookies and similar tracking technologies to improve your browsing experience and analyze site traffic. Cookies are small text files stored on your device that help us understand how you use our website.",
+      "typesTitle": "Types of Cookies We Use:",
+      "essential": {
+        "name": "Essential Cookies:",
+        "desc": "Required for basic website functionality"
+      },
+      "analytics": {
+        "name": "Analytics Cookies:",
+        "desc": "Help us understand how visitors interact with our website"
+      },
+      "preference": {
+        "name": "Preference Cookies:",
+        "desc": "Remember your settings and preferences (language, theme)"
+      }
+    },
+    "googleAdsense": {
+      "title": "Google AdSense and Third-Party Cookies",
+      "content": "This website uses Google AdSense, a service for including advertisements from Google Inc. (\"Google\"). Google AdSense uses cookies and web beacons to display advertisements based on your previous visits to this website or other websites.",
+      "dataUsage": "Google uses cookies to serve ads based on your prior visits to our website or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our sites and/or other sites on the Internet.",
+      "optOut": "You may opt out of personalized advertising by visiting Google's Ads Settings at"
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "content": "We use the collected information to:",
+      "item1": "Improve our website's functionality and user experience",
+      "item2": "Analyze website traffic and usage patterns",
+      "item3": "Display relevant advertisements through Google AdSense",
+      "item4": "Remember your preferences (language, theme settings)"
+    },
+    "userRights": {
+      "title": "Your Rights",
+      "content": "You have the right to:",
+      "item1": "Access the personal information we hold about you",
+      "item2": "Request correction of inaccurate information",
+      "item3": "Request deletion of your personal information",
+      "item4": "Opt out of personalized advertising",
+      "item5": "Disable cookies through your browser settings"
+    },
+    "cookieManagement": {
+      "title": "Managing Cookies",
+      "content": "You can control and manage cookies in various ways. Please note that removing or blocking cookies may impact your user experience and some functionality may no longer be available.",
+      "browserSettings": "Most browsers allow you to refuse or accept cookies. You can usually find these settings in your browser's \"Options\" or \"Preferences\" menu."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. Analytics and cookie data are typically retained for up to 26 months."
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "content": "Our website may contain links to third-party websites and services, including Google AdSense. We are not responsible for the privacy practices of these third parties. We encourage you to review their privacy policies."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this Privacy Policy periodically."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "If you have any questions about this Privacy Policy or how we handle your data, please contact:"
+    },
+    "footer": {
+      "compliance": "This privacy policy is compliant with GDPR, CCPA, and Google AdSense requirements."
+    }
+  },
+  "bentos": {
+    "gallery-grid-4-col": {
+      "name": "Galeria Siatka 4-6",
+      "description": "Galeria 4 obrazów z podziałem kolumn 4-6-6-4",
+      "tags": ["galeria", "obrazy", "siatka", "responsywna"]
+    },
+    "gallery-grid-8-item": {
+      "name": "Galeria Siatka 8 Elementów",
+      "description": "Responsywna galeria 8 elementów z różnymi szerokościami kolumn",
+      "tags": ["galeria", "obrazy", "siatka", "responsywna", "8 elementów"]
+    },
+    "gallery-mosaic-9": {
+      "name": "Galeria Mozaika 9 Elementów",
+      "description": "Galeria mozaikowa 9 elementów z różnymi wierszami i kolumnami",
+      "tags": ["galeria", "obrazy", "mozaika", "siatka", "responsywna"]
+    },
+    "gallery-center-tall": {
+      "name": "Galeria Wysoki Środek",
+      "description": "Galeria 5 elementów z wyróżnioną wysoką kolumną centralną",
+      "tags": ["galeria", "obrazy", "wyróżnione", "responsywna"]
+    },
+    "gallery-asymmetric": {
+      "name": "Galeria Asymetryczna",
+      "description": "Asymetryczna galeria 5 elementów z różnymi wierszami",
+      "tags": ["galeria", "obrazy", "asymetryczna", "responsywna"]
+    },
+    "gallery-full-width": {
+      "name": "Galeria Pełna Szerokość",
+      "description": "Naprzemienne ułożenie pełnej i połowy szerokości",
+      "tags": ["galeria", "pełna szerokość", "naprzemienne", "hero"]
+    },
+    "gallery-masonry": {
+      "name": "Galeria Murowa",
+      "description": "Galeria w stylu murowym z różnymi rozmiarami",
+      "tags": ["galeria", "murowa", "pinterest", "zróżnicowana"]
+    },
+    "gallery-polaroid": {
+      "name": "Galeria Polaroid",
+      "description": "Galeria z kartami w stylu polaroid i podpisami",
+      "tags": ["galeria", "polaroid", "vintage", "podpisy"]
+    },
+    "gallery-cross": {
+      "name": "Galeria Krzyż",
+      "description": "Wzór krzyżowy z centralnym punktem skupienia otoczonym elementami",
+      "tags": ["galeria", "krzyż", "ogniskowy", "responsywna"]
+    },
+    "gallery-diamond": {
+      "name": "Galeria Diament",
+      "description": "Galeria z wzorem diamentowym i wyśrodkowanymi elementami",
+      "tags": ["galeria", "diament", "przesunięta", "wyśrodkowana", "responsywna"]
+    },
+    "gallery-featured-row": {
+      "name": "Galeria Wyróżniony Rząd",
+      "description": "Jeden duży wyróżniony element z mniejszymi ułożonymi po prawej",
+      "tags": ["galeria", "wyróżnione", "asymetryczna", "responsywna"]
+    },
+    "gallery-film-strip": {
+      "name": "Galeria Taśma Filmowa",
+      "description": "Pozioma taśma filmowa z różnymi szerokościami",
+      "tags": ["galeria", "taśma filmowa", "pozioma", "kino"]
+    },
+    "gallery-grid-3-col": {
+      "name": "Galeria 3 Kolumny",
+      "description": "Galeria 3-kolumnowa z różnymi wysokościami za pomocą kolumn CSS",
+      "tags": ["galeria", "murowa", "3 kolumny", "responsywna"]
+    },
+    "gallery-grid-mixed": {
+      "name": "Galeria Siatka Mieszana",
+      "description": "Asymetryczna siatka z różnymi rozmiarami elementów",
+      "tags": ["galeria", "siatka", "asymetryczna", "mieszana"]
+    },
+    "gallery-hero-grid": {
+      "name": "Galeria Hero Siatka",
+      "description": "Obraz hero na górze z równomierną siatką poniżej",
+      "tags": ["galeria", "hero", "siatka", "responsywna"]
+    },
+    "gallery-panoramic": {
+      "name": "Galeria Panoramiczna",
+      "description": "Panoramiczne pasy pełnej szerokości z różnymi wysokościami",
+      "tags": ["galeria", "panoramiczna", "szeroka", "pasy"]
+    },
+    "gallery-sidebar": {
+      "name": "Galeria z Paskiem Bocznym",
+      "description": "Wysoki obraz boczny z siatką 3x2 po prawej",
+      "tags": ["galeria", "pasek boczny", "siatka", "responsywna"]
+    },
+    "gallery-split": {
+      "name": "Galeria Podzielona",
+      "description": "Podzielony układ z jednym wysokim elementem i siatką 2x2",
+      "tags": ["galeria", "podzielona", "siatka", "responsywna"]
+    },
+    "gallery-spotlight": {
+      "name": "Galeria Spotlight",
+      "description": "Witryna hero z bocznymi miniaturami",
+      "tags": ["galeria", "spotlight", "hero", "wyróżnione"]
+    },
+    "gallery-staircase": {
+      "name": "Galeria Schody",
+      "description": "Galeria z wzorem schodkowym i kaskadowym rozmieszczeniem",
+      "tags": ["galeria", "schody", "siatka", "responsywna"]
+    },
+    "gallery-tiles": {
+      "name": "Galeria Kafelki",
+      "description": "Asymetryczny wzór kafelków w stylu tetris",
+      "tags": ["galeria", "kafelki", "tetris", "geometryczny"]
+    },
+    "gallery-waterfall": {
+      "name": "Galeria Wodospad",
+      "description": "Układ wodospadowy w stylu Pinterest",
+      "tags": ["galeria", "murowa", "wodospad", "pinterest"]
+    },
+    "gallery-window": {
+      "name": "Galeria Okno",
+      "description": "Siatka 3x3 z powiększoną centralną witryną",
+      "tags": ["galeria", "siatka", "witryna", "okno"]
+    },
+    "gallery-zigzag": {
+      "name": "Galeria Zygzak",
+      "description": "Naprzemienny wzór zygzakowy z układem duży-mały-duży",
+      "tags": ["galeria", "zygzak", "naprzemienne", "responsywna"]
+    },
+    "blog-magazine": {
+      "name": "Blog w Stylu Magazynu",
+      "description": "Układ bloga w stylu magazynowym z wyróżnionym artykułem i mniejszymi artykułami",
+      "tags": ["blog", "magazyn", "artykuły", "redakcyjny"]
+    },
+    "blog-photo-journal": {
+      "name": "Dziennik Fotograficzny",
+      "description": "Układ bloga z wyeksponowaną fotografią",
+      "tags": ["blog", "fotografia", "dziennik", "artykuły"]
+    },
+    "portfolio-grid": {
+      "name": "Portfolio Siatka",
+      "description": "Siatka 3x2 kart projektów z nałożonym tekstem",
+      "tags": ["portfolio", "siatka", "projekty", "nakładka"]
+    },
+    "portfolio-image-grid": {
+      "name": "Portfolio Obrazów",
+      "description": "Siatka portfolio z nakładkami obrazów i szczegółami projektów",
+      "tags": ["portfolio", "projekty", "witryna", "siatka"]
+    }
+  }
+}

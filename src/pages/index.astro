@@ -1,23 +1,19 @@
 ---
-import Hero from "@/components/Hero.astro";
+import BentoList from "@/components/bento-list.astro";
+import CategoryFilter from "@/components/category-filter.astro";
+import Footer from "@/components/footer.astro";
+import Header from "@/components/header.astro";
+import Hero from "@/components/hero.astro";
 import Layout from "../layouts/Layout.astro";
-import Header from "@/components/Header.astro";
-import Bento1 from "@/components/Bentos/Bento-1.astro";
-import Bento2 from "@/components/Bentos/Bento-2.astro";
-import Bento3 from "@/components/Bentos/Bento-3.astro";
-import Bento4 from "@/components/Bentos/Bento-4.astro";
-import Bento5 from "@/components/Bentos/Bento-5.astro";
 ---
 
-<Layout title="Welcome to Bentoed">
+<Layout title="Bentoed - 30+ Bento Grid Components">
   <main class="max-w-[1300px] flex flex-col mx-auto px-3 gap-20">
     <Header />
     <Hero />
-    <Bento1 />
-    <Bento2 />
-    <Bento3 />
-    <Bento4 />
-    <Bento5 />
+    <CategoryFilter />
+    <BentoList />
+    <Footer />
   </main>
 </Layout>
 
@@ -31,158 +27,4 @@ import Bento5 from "@/components/Bentos/Bento-5.astro";
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"
 ></script>
 
-<script is:inline>
-  /* Espero a que se cargue todo el dom */
-  document.addEventListener("DOMContentLoaded", () => {
-    /* Cojo todos los bentos accediendo a la clase bento-section */
-    const bentos = document.querySelectorAll(".bento-section");
-
-    /* hago el loop */
-    bentos.forEach((bento) => {
-      const htmlBtn = bento.querySelector(".html-btn");
-      const cssBtn = bento.querySelector(".css-btn");
-      const tailwindBtn = bento.querySelector(".tailwind-btn");
-      const bentoBtn = bento.querySelector(".bento-btn");
-      const bentoHeader = bento.querySelector(".bento-header");
-
-      const copyHtmlBtn = bento.querySelector(".copy-html-btn");
-      const copyCssBtn = bento.querySelector(".copy-css-btn");
-      const copyTailwindBtn = bento.querySelector(".copy-tailwind-btn");
-
-      const htmlCode = bento.querySelector("#html-code");
-      const cssCode = bento.querySelector("#css-code");
-      const tailwindCode = bento.querySelector("#tailwind-code");
-      const bentoDiv = bento.querySelector("#bento-div");
-
-      const htmlValue = htmlCode.getAttribute("data-value");
-      const cssValue = cssCode.getAttribute("data-value");
-      const tailwindValue = tailwindCode.getAttribute("data-value");
-
-      htmlCode.style.display = "none";
-      cssCode.style.display = "none";
-      tailwindCode.style.display = "none";
-
-      htmlBtn.addEventListener("click", () => {
-        setActiveButtons(cssBtn, tailwindBtn, bentoBtn);
-        setDisabledButton(htmlBtn);
-        showCode("html", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
-      });
-
-      cssBtn.addEventListener("click", () => {
-        setActiveButtons(htmlBtn, tailwindBtn, bentoBtn);
-        setDisabledButton(cssBtn);
-        showCode("css", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
-      });
-
-      tailwindBtn.addEventListener("click", () => {
-        setActiveButtons(htmlBtn, cssBtn, bentoBtn);
-        setDisabledButton(tailwindBtn);
-        showCode(
-          "tailwind",
-          htmlCode,
-          cssCode,
-          tailwindCode,
-          bentoDiv,
-          bentoBtn
-        );
-      });
-
-      bentoBtn.addEventListener("click", () => {
-        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
-        setDisabledButton(bentoBtn);
-        showCode("bento", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
-      });
-
-      bentoHeader.addEventListener("click", () => {
-        setActiveButtons(htmlBtn, cssBtn, tailwindBtn);
-        setDisabledButton(bentoBtn);
-        showCode("bento", htmlCode, cssCode, tailwindCode, bentoDiv, bentoBtn);
-      });
-
-      copyHtmlBtn.addEventListener("click", () => {
-        setClipboard(htmlValue);
-      });
-
-      copyCssBtn.addEventListener("click", () => {
-        setClipboard(cssValue);
-      });
-
-      copyTailwindBtn.addEventListener("click", () => {
-        setClipboard(tailwindValue);
-      });
-    });
-
-    function setActiveButtons(htmlCode, cssCode, tailwindCode) {
-      const btns = [htmlCode, cssCode, tailwindCode];
-      btns.forEach((btn) => {
-        btn.classList.remove("text-primary", "bg-tertiary");
-        btn.classList.add(
-          "bg-primary",
-          "text-tertiary",
-          "hover:text-primary",
-          "hover:bg-tertiary"
-        );
-      });
-    }
-
-    function setDisabledButton(btn) {
-      btn.classList.remove(
-        "bg-primary",
-        "text-tertiary",
-        "hover:text-primary",
-        "hover:bg-tertiary"
-      );
-      btn.classList.add("text-primary", "bg-tertiary");
-    }
-
-    async function setClipboard(text) {
-      const type = "text/plain";
-      const blob = new Blob([text], { type });
-      const data = [new ClipboardItem({ [type]: blob })];
-      await navigator.clipboard.write(data);
-
-      Toastify({
-        text: "Copied to clipboard!",
-        duration: 3000,
-        position: "right",
-        offset: { x: 40, y: 20 },
-        style: {
-          background: "#ddd",
-          color: "black",
-          borderRadius: "10px",
-        },
-      }).showToast();
-    }
-
-    function showCode(code, htmlCode, cssCode, tailwindCode, bentoDiv) {
-      switch (code) {
-        case "html":
-          htmlCode.style.display = "block";
-          bentoDiv.style.display = "none";
-          cssCode.style.display = "none";
-          tailwindCode.style.display = "none";
-          break;
-        case "css":
-          htmlCode.style.display = "none";
-          bentoDiv.style.display = "none";
-          cssCode.style.display = "block";
-          tailwindCode.style.display = "none";
-
-          break;
-        case "tailwind":
-          htmlCode.style.display = "none";
-          bentoDiv.style.display = "none";
-          cssCode.style.display = "none";
-          tailwindCode.style.display = "block";
-
-          break;
-        case "bento":
-          htmlCode.style.display = "none";
-          cssCode.style.display = "none";
-          tailwindCode.style.display = "none";
-          bentoDiv.style.display = "grid";
-          break;
-      }
-    }
-  });
-</script>
+<script is:inline src="/scripts/bento-interactions.js"></script>

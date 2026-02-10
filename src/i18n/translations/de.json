@@ -1,0 +1,255 @@
+{
+  "ui": {
+    "copy": "KOPIEREN",
+    "copied": "In die Zwischenablage kopiert!",
+    "all": "Alle",
+    "goToGithub": "Zu GitHub",
+    "toggleTheme": "Design wechseln",
+    "bento": "bento",
+    "html": "html",
+    "css": "css",
+    "tailwind": "tailwind",
+    "selectLanguage": "Sprache",
+    "buyMeACoffee": "Kauf mir einen Kaffee"
+  },
+  "hero": {
+    "title1": "Über 40 moderne",
+    "title2": "Bento-Grid-Komponenten.",
+    "subtitle": "Sofort einsetzbare Bento-Grid-Designs. Einfach kopieren und in dein nächstes Projekt einfügen. Erstellt mit HTML, CSS und Tailwind CSS."
+  },
+  "seo": {
+    "title": "Bentoed - Über 30 Bento-Grid-Komponenten",
+    "description": "Entdecke über 30 kostenlose Bento-Grid-Designs, erstellt mit HTML, CSS und Tailwind CSS. Kopierfertige Komponenten für Galerien, Portfolios, Blogs und mehr."
+  },
+  "categories": {
+    "gallery": "Galerie",
+    "blog": "Blog",
+    "portfolio": "Portfolio"
+  },
+  "footer": {
+    "privacyPolicy": "Datenschutzerklärung",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Letzte Aktualisierung: Januar 2025",
+    "backToHome": "← Zurück zur Startseite",
+    "introduction": {
+      "title": "Einführung",
+      "content": "Diese Datenschutzerklärung erläutert, wie Bentoed Ihre Informationen sammelt, verwendet und schützt, wenn Sie unsere Website besuchen. Wir sind bestrebt, Ihre Privatsphäre zu schützen."
+    },
+    "dataCollection": {
+      "title": "Informationen, die Wir Sammeln",
+      "content": "Wenn Sie unsere Website besuchen, können wir die folgenden Arten von Informationen sammeln:",
+      "item1": "Technische Informationen einschließlich Ihrer IP-Adresse, Browsertyp und Betriebssystem",
+      "item2": "Nutzungsdaten wie besuchte Seiten, auf Seiten verbrachte Zeit und Klickmuster",
+      "item3": "Cookie-Daten und ähnliche Tracking-Technologien"
+    },
+    "cookies": {
+      "title": "Cookies und Tracking-Technologien",
+      "content": "Wir verwenden Cookies und ähnliche Tracking-Technologien, um Ihr Browsing-Erlebnis zu verbessern und den Website-Traffic zu analysieren. Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden und uns helfen zu verstehen, wie Sie unsere Website nutzen.",
+      "typesTitle": "Arten von Cookies, die Wir Verwenden:",
+      "essential": {
+        "name": "Essentielle Cookies:",
+        "desc": "Erforderlich für grundlegende Website-Funktionalität"
+      },
+      "analytics": {
+        "name": "Analyse-Cookies:",
+        "desc": "Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren"
+      },
+      "preference": {
+        "name": "Präferenz-Cookies:",
+        "desc": "Merken sich Ihre Einstellungen und Präferenzen (Sprache, Theme)"
+      }
+    },
+    "googleAdsense": {
+      "title": "Google AdSense und Drittanbieter-Cookies",
+      "content": "Diese Website verwendet Google AdSense, einen Dienst zum Einbinden von Werbung von Google Inc. (\"Google\"). Google AdSense verwendet Cookies und Web Beacons, um Werbung basierend auf Ihren vorherigen Besuchen dieser Website oder anderer Websites anzuzeigen.",
+      "dataUsage": "Google verwendet Cookies, um Anzeigen basierend auf Ihren vorherigen Besuchen unserer Website oder anderer Websites zu schalten. Die Verwendung von Werbe-Cookies durch Google ermöglicht es Google und seinen Partnern, Anzeigen basierend auf Ihrem Besuch unserer Websites und/oder anderer Websites im Internet zu schalten.",
+      "optOut": "Sie können personalisierte Werbung ablehnen, indem Sie die Google Ads-Einstellungen unter"
+    },
+    "dataUsage": {
+      "title": "Wie Wir Ihre Informationen Verwenden",
+      "content": "Wir verwenden die gesammelten Informationen, um:",
+      "item1": "Die Funktionalität und Benutzererfahrung unserer Website zu verbessern",
+      "item2": "Website-Traffic und Nutzungsmuster zu analysieren",
+      "item3": "Relevante Werbung über Google AdSense anzuzeigen",
+      "item4": "Ihre Präferenzen zu speichern (Sprache, Theme-Einstellungen)"
+    },
+    "userRights": {
+      "title": "Ihre Rechte",
+      "content": "Sie haben das Recht:",
+      "item1": "Auf die persönlichen Informationen zuzugreifen, die wir über Sie haben",
+      "item2": "Die Korrektur ungenauer Informationen zu verlangen",
+      "item3": "Die Löschung Ihrer persönlichen Informationen zu verlangen",
+      "item4": "Personalisierte Werbung abzulehnen",
+      "item5": "Cookies über Ihre Browser-Einstellungen zu deaktivieren"
+    },
+    "cookieManagement": {
+      "title": "Verwaltung von Cookies",
+      "content": "Sie können Cookies auf verschiedene Weise kontrollieren und verwalten. Bitte beachten Sie, dass das Entfernen oder Blockieren von Cookies Ihr Benutzererlebnis beeinträchtigen kann und einige Funktionen möglicherweise nicht mehr verfügbar sind.",
+      "browserSettings": "Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu akzeptieren. Sie finden diese Einstellungen normalerweise im Menü \"Optionen\" oder \"Einstellungen\" Ihres Browsers."
+    },
+    "dataRetention": {
+      "title": "Datenspeicherung",
+      "content": "Wir speichern Ihre Informationen nur so lange, wie es zur Erfüllung der in dieser Datenschutzerklärung beschriebenen Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder zulässig. Analyse- und Cookie-Daten werden in der Regel bis zu 26 Monate gespeichert."
+    },
+    "thirdParty": {
+      "title": "Dienste Dritter",
+      "content": "Unsere Website kann Links zu Websites und Diensten Dritter enthalten, einschließlich Google AdSense. Wir sind nicht verantwortlich für die Datenschutzpraktiken dieser Dritten. Wir empfehlen Ihnen, deren Datenschutzrichtlinien zu überprüfen."
+    },
+    "changes": {
+      "title": "Änderungen an Dieser Richtlinie",
+      "content": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Alle Änderungen werden auf dieser Seite mit einem aktualisierten Revisionsdatum veröffentlicht. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig zu überprüfen."
+    },
+    "contact": {
+      "title": "Kontaktinformationen",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Handhabung Ihrer Daten haben, kontaktieren Sie bitte:"
+    },
+    "footer": {
+      "compliance": "Diese Datenschutzerklärung entspricht den Anforderungen der DSGVO, CCPA und Google AdSense."
+    }
+  },
+  "bentos": {
+    "gallery-grid-4-col": {
+      "name": "Galerie-Raster 4-6",
+      "description": "4-Bilder-Galerie mit 4-6-6-4-Spaltenaufteilung",
+      "tags": ["Galerie", "Bilder", "Raster", "Responsive"]
+    },
+    "gallery-grid-8-item": {
+      "name": "Galerie-Raster 8 Elemente",
+      "description": "Responsives 8-Elemente-Raster mit variierenden Spaltenbreiten",
+      "tags": ["Galerie", "Bilder", "Raster", "Responsive", "8 Elemente"]
+    },
+    "gallery-mosaic-9": {
+      "name": "Mosaik-Galerie 9 Elemente",
+      "description": "9-Elemente-Mosaik mit variierenden Zeilen- und Spaltenbreiten",
+      "tags": ["Galerie", "Bilder", "Mosaik", "Raster", "Responsive"]
+    },
+    "gallery-center-tall": {
+      "name": "Galerie Mitte Hoch",
+      "description": "5-Elemente-Galerie mit hoher zentraler Spalte",
+      "tags": ["Galerie", "Bilder", "Hervorgehoben", "Responsive"]
+    },
+    "gallery-asymmetric": {
+      "name": "Asymmetrische Galerie",
+      "description": "Asymmetrische 5-Elemente-Galerie mit variierenden Zeilen",
+      "tags": ["Galerie", "Bilder", "Asymmetrisch", "Responsive"]
+    },
+    "gallery-full-width": {
+      "name": "Galerie Volle Breite",
+      "description": "Abwechselnde Anordnung in voller und halber Breite",
+      "tags": ["Galerie", "Volle Breite", "Abwechselnd", "Hero"]
+    },
+    "gallery-masonry": {
+      "name": "Mauerwerk-Galerie",
+      "description": "Galerie im Mauerwerk-Stil mit variierenden Größen",
+      "tags": ["Galerie", "Mauerwerk", "Pinterest", "Variiert"]
+    },
+    "gallery-polaroid": {
+      "name": "Polaroid-Galerie",
+      "description": "Galerie mit Polaroid-Karten und Bildunterschriften",
+      "tags": ["Galerie", "Polaroid", "Vintage", "Bildunterschriften"]
+    },
+    "gallery-cross": {
+      "name": "Kreuz-Galerie",
+      "description": "Kreuzmuster mit zentralem Fokuspunkt umgeben von Elementen",
+      "tags": ["Galerie", "Kreuz", "Fokus", "Responsive"]
+    },
+    "gallery-diamond": {
+      "name": "Diamant-Galerie",
+      "description": "Galerie mit Diamant-/Versatz-Muster und zentrierten Elementen",
+      "tags": ["Galerie", "Diamant", "Versetzt", "Zentriert", "Responsive"]
+    },
+    "gallery-featured-row": {
+      "name": "Galerie Hervorgehobene Reihe",
+      "description": "Ein großes hervorgehobenes Element mit gestapelten Elementen rechts",
+      "tags": ["Galerie", "Hervorgehoben", "Asymmetrisch", "Responsive"]
+    },
+    "gallery-film-strip": {
+      "name": "Filmstreifen-Galerie",
+      "description": "Horizontaler Filmstreifen mit variierenden Breiten",
+      "tags": ["Galerie", "Filmstreifen", "Horizontal", "Kino"]
+    },
+    "gallery-grid-3-col": {
+      "name": "3-Spalten-Galerie",
+      "description": "3-Spalten-Galerie mit variierenden Höhen mittels CSS-Spalten",
+      "tags": ["Galerie", "Mauerwerk", "3 Spalten", "Responsive"]
+    },
+    "gallery-grid-mixed": {
+      "name": "Gemischte Raster-Galerie",
+      "description": "Asymmetrisches Raster mit variierenden Elementgrößen",
+      "tags": ["Galerie", "Raster", "Asymmetrisch", "Gemischt"]
+    },
+    "gallery-hero-grid": {
+      "name": "Hero-Raster-Galerie",
+      "description": "Hero-Bild oben mit gleichmäßigem Raster darunter",
+      "tags": ["Galerie", "Hero", "Raster", "Responsive"]
+    },
+    "gallery-panoramic": {
+      "name": "Panorama-Galerie",
+      "description": "Panoramastreifen in voller Breite mit variierenden Höhen",
+      "tags": ["Galerie", "Panorama", "Breit", "Streifen"]
+    },
+    "gallery-sidebar": {
+      "name": "Seitenleisten-Galerie",
+      "description": "Hohes Seitenbild mit 3x2-Raster rechts",
+      "tags": ["Galerie", "Seitenleiste", "Raster", "Responsive"]
+    },
+    "gallery-split": {
+      "name": "Geteilte Galerie",
+      "description": "Geteilte Anordnung mit einem hohen Element und 2x2-Raster",
+      "tags": ["Galerie", "Geteilt", "Raster", "Responsive"]
+    },
+    "gallery-spotlight": {
+      "name": "Spotlight-Galerie",
+      "description": "Hero-Schaufenster mit seitlichen Vorschaubildern",
+      "tags": ["Galerie", "Spotlight", "Hero", "Hervorgehoben"]
+    },
+    "gallery-staircase": {
+      "name": "Treppen-Galerie",
+      "description": "Galerie mit Treppenmuster und kaskadierender Platzierung",
+      "tags": ["Galerie", "Treppe", "Raster", "Responsive"]
+    },
+    "gallery-tiles": {
+      "name": "Fliesen-Galerie",
+      "description": "Asymmetrisches Fliesenmuster im Tetris-Stil",
+      "tags": ["Galerie", "Fliesen", "Tetris", "Geometrisch"]
+    },
+    "gallery-waterfall": {
+      "name": "Wasserfall-Galerie",
+      "description": "Wasserfall-Layout im Pinterest-Stil",
+      "tags": ["Galerie", "Mauerwerk", "Wasserfall", "Pinterest"]
+    },
+    "gallery-window": {
+      "name": "Fenster-Galerie",
+      "description": "3x3-Raster mit vergrößertem zentralem Schaufenster",
+      "tags": ["Galerie", "Raster", "Schaufenster", "Fenster"]
+    },
+    "gallery-zigzag": {
+      "name": "Zickzack-Galerie",
+      "description": "Abwechselndes Zickzack-Muster mit Groß-Klein-Groß-Anordnung",
+      "tags": ["Galerie", "Zickzack", "Abwechselnd", "Responsive"]
+    },
+    "blog-magazine": {
+      "name": "Magazin-Blog-Layout",
+      "description": "Blog-Layout im Magazinstil mit Hauptartikel und kleineren Beiträgen",
+      "tags": ["Blog", "Magazin", "Artikel", "Redaktionell"]
+    },
+    "blog-photo-journal": {
+      "name": "Foto-Journal",
+      "description": "Blog-Layout mit prominenter Fotografie",
+      "tags": ["Blog", "Fotografie", "Journal", "Artikel"]
+    },
+    "portfolio-grid": {
+      "name": "Portfolio-Raster",
+      "description": "3x2-Raster mit Projektkarten und überlagerndem Text",
+      "tags": ["Portfolio", "Raster", "Projekte", "Überlagerung"]
+    },
+    "portfolio-image-grid": {
+      "name": "Bild-Portfolio",
+      "description": "Portfolio-Raster mit Bildüberlagerungen und Projektdetails",
+      "tags": ["Portfolio", "Projekte", "Schaufenster", "Raster"]
+    }
+  }
+}

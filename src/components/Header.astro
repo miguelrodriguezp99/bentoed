@@ -1,8 +1,51 @@
 ---
-import ThemeToggle from "./ThemeToggle.astro";
+import { languages } from "@/i18n/index";
+import ThemeToggle from "./theme-toggle.astro";
 ---
 
-<header class="flex py-3">
+<header class="flex py-3 items-center sticky top-0 z-[9999999]">
   <h1 class="text-3xl text-primary flex-1">◱ Bentoed</h1>
-  <ThemeToggle />
+  <div class="flex items-center gap-3">
+    <select
+      id="lang-selector"
+      class="bg-primary text-tertiary border border-secondary rounded-md px-2 py-1 text-sm cursor-pointer transition-all duration-300 ease-in-out hover:text-primary hover:bg-tertiary appearance-none"
+    >
+      {languages.map((lang) => (
+        <option value={lang.code}>
+          {lang.name}
+        </option>
+      ))}
+    </select>
+    <a
+      href="https://buymeacoffee.com/miguelrp99"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="px-3 py-1 text-sm bg-[#FFDD00] text-black font-[Lato] rounded-md
+      hover:bg-[#e5c700] transition-all duration-300 ease-in-out select-none"
+    >
+      ☕ <span data-i18n="ui.buyMeACoffee">Buy me a coffee</span>
+    </a>
+    <ThemeToggle />
+  </div>
 </header>
+
+<script is:inline>
+  (function() {
+    const selector = document.getElementById('lang-selector');
+    const saved = localStorage.getItem('lang') || 'en';
+    selector.value = saved;
+
+    selector.addEventListener('change', () => {
+      const lang = selector.value;
+      localStorage.setItem('lang', lang);
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.lang = lang;
+      if (lang === 'ar') {
+        document.documentElement.dir = 'rtl';
+      } else {
+        document.documentElement.dir = 'ltr';
+      }
+      window.dispatchEvent(new CustomEvent('lang-changed', { detail: { lang } }));
+    });
+  })();
+</script>

@@ -1,0 +1,255 @@
+{
+  "ui": {
+    "copy": "COPY",
+    "copied": "Copied to clipboard!",
+    "all": "All",
+    "goToGithub": "Go to GitHub",
+    "toggleTheme": "Toggle theme",
+    "bento": "bento",
+    "html": "html",
+    "css": "css",
+    "tailwind": "tailwind",
+    "selectLanguage": "Language",
+    "buyMeACoffee": "Buy me a coffee"
+  },
+  "hero": {
+    "title1": "40+ modern,",
+    "title2": "bento-grid components.",
+    "subtitle": "Ready-to-use bento grid designs. Simply copy and paste into your next project. Crafted with HTML, CSS, and Tailwind CSS."
+  },
+  "seo": {
+    "title": "Bentoed - 30+ Bento Grid Components",
+    "description": "Browse 30+ free bento grid designs crafted with HTML, CSS, and Tailwind CSS. Copy-paste ready components for galleries, portfolios, blogs, and more."
+  },
+  "categories": {
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "portfolio": "Portfolio"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "rights": "All rights reserved"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "backToHome": "← Back to Home",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This Privacy Policy explains how Bentoed collects, uses, and protects your information when you visit our website. We are committed to ensuring that your privacy is protected."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "content": "When you visit our website, we may collect the following types of information:",
+      "item1": "Technical information including your IP address, browser type, and operating system",
+      "item2": "Usage data such as pages visited, time spent on pages, and click patterns",
+      "item3": "Cookie data and similar tracking technologies"
+    },
+    "cookies": {
+      "title": "Cookies and Tracking Technologies",
+      "content": "We use cookies and similar tracking technologies to improve your browsing experience and analyze site traffic. Cookies are small text files stored on your device that help us understand how you use our website.",
+      "typesTitle": "Types of Cookies We Use:",
+      "essential": {
+        "name": "Essential Cookies:",
+        "desc": "Required for basic website functionality"
+      },
+      "analytics": {
+        "name": "Analytics Cookies:",
+        "desc": "Help us understand how visitors interact with our website"
+      },
+      "preference": {
+        "name": "Preference Cookies:",
+        "desc": "Remember your settings and preferences (language, theme)"
+      }
+    },
+    "googleAdsense": {
+      "title": "Google AdSense and Third-Party Cookies",
+      "content": "This website uses Google AdSense, a service for including advertisements from Google Inc. (\"Google\"). Google AdSense uses cookies and web beacons to display advertisements based on your previous visits to this website or other websites.",
+      "dataUsage": "Google uses cookies to serve ads based on your prior visits to our website or other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our sites and/or other sites on the Internet.",
+      "optOut": "You may opt out of personalized advertising by visiting Google's Ads Settings at"
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "content": "We use the collected information to:",
+      "item1": "Improve our website's functionality and user experience",
+      "item2": "Analyze website traffic and usage patterns",
+      "item3": "Display relevant advertisements through Google AdSense",
+      "item4": "Remember your preferences (language, theme settings)"
+    },
+    "userRights": {
+      "title": "Your Rights",
+      "content": "You have the right to:",
+      "item1": "Access the personal information we hold about you",
+      "item2": "Request correction of inaccurate information",
+      "item3": "Request deletion of your personal information",
+      "item4": "Opt out of personalized advertising",
+      "item5": "Disable cookies through your browser settings"
+    },
+    "cookieManagement": {
+      "title": "Managing Cookies",
+      "content": "You can control and manage cookies in various ways. Please note that removing or blocking cookies may impact your user experience and some functionality may no longer be available.",
+      "browserSettings": "Most browsers allow you to refuse or accept cookies. You can usually find these settings in your browser's \"Options\" or \"Preferences\" menu."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. Analytics and cookie data are typically retained for up to 26 months."
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "content": "Our website may contain links to third-party websites and services, including Google AdSense. We are not responsible for the privacy practices of these third parties. We encourage you to review their privacy policies."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this Privacy Policy periodically."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "If you have any questions about this Privacy Policy or how we handle your data, please contact:"
+    },
+    "footer": {
+      "compliance": "This privacy policy is compliant with GDPR, CCPA, and Google AdSense requirements."
+    }
+  },
+  "bentos": {
+    "gallery-grid-4-col": {
+      "name": "Gallery Grid 4-6",
+      "description": "4-item image gallery with 4-6-6-4 column split layout",
+      "tags": ["gallery", "images", "grid", "responsive"]
+    },
+    "gallery-grid-8-item": {
+      "name": "Gallery Grid 8-Item",
+      "description": "8-item responsive grid gallery with varied column spans",
+      "tags": ["gallery", "images", "grid", "responsive", "8-item"]
+    },
+    "gallery-mosaic-9": {
+      "name": "Gallery Mosaic 9-Item",
+      "description": "9-item mosaic gallery with varied row and column spans",
+      "tags": ["gallery", "images", "mosaic", "grid", "responsive"]
+    },
+    "gallery-center-tall": {
+      "name": "Gallery Center Tall",
+      "description": "5-item gallery with tall center column feature",
+      "tags": ["gallery", "images", "featured", "responsive"]
+    },
+    "gallery-asymmetric": {
+      "name": "Gallery Asymmetric",
+      "description": "5-item asymmetric gallery with varied row spans",
+      "tags": ["gallery", "images", "asymmetric", "responsive"]
+    },
+    "gallery-full-width": {
+      "name": "Full Width Gallery",
+      "description": "Alternating full-width and half-width gallery layout",
+      "tags": ["gallery", "full-width", "alternating", "hero"]
+    },
+    "gallery-masonry": {
+      "name": "Masonry Gallery",
+      "description": "Masonry-style gallery with varied item sizes",
+      "tags": ["gallery", "masonry", "pinterest", "varied"]
+    },
+    "gallery-polaroid": {
+      "name": "Polaroid Gallery",
+      "description": "Gallery with polaroid-style cards and captions",
+      "tags": ["gallery", "polaroid", "vintage", "captions"]
+    },
+    "gallery-cross": {
+      "name": "Cross Gallery",
+      "description": "Cross/plus pattern with center focal point surrounded by items",
+      "tags": ["gallery", "cross", "focal", "responsive"]
+    },
+    "gallery-diamond": {
+      "name": "Diamond Gallery",
+      "description": "Diamond/offset pattern gallery with centered items",
+      "tags": ["gallery", "diamond", "offset", "centered", "responsive"]
+    },
+    "gallery-featured-row": {
+      "name": "Featured Row Gallery",
+      "description": "One large featured item with smaller items stacked on the right",
+      "tags": ["gallery", "featured", "asymmetric", "responsive"]
+    },
+    "gallery-film-strip": {
+      "name": "Film Strip Gallery",
+      "description": "Horizontal film strip with varying widths",
+      "tags": ["gallery", "film-strip", "horizontal", "cinema"]
+    },
+    "gallery-grid-3-col": {
+      "name": "3-Column Gallery",
+      "description": "3-column gallery with varied heights using CSS columns",
+      "tags": ["gallery", "masonry", "3-column", "responsive"]
+    },
+    "gallery-grid-mixed": {
+      "name": "Mixed Grid Gallery",
+      "description": "Asymmetric grid with varied item sizes",
+      "tags": ["gallery", "grid", "asymmetric", "mixed"]
+    },
+    "gallery-hero-grid": {
+      "name": "Hero Grid Gallery",
+      "description": "Hero image at top with equal grid items below",
+      "tags": ["gallery", "hero", "grid", "responsive"]
+    },
+    "gallery-panoramic": {
+      "name": "Panoramic Gallery",
+      "description": "Full-width panoramic strips with varying heights",
+      "tags": ["gallery", "panoramic", "wide", "strips"]
+    },
+    "gallery-sidebar": {
+      "name": "Sidebar Gallery",
+      "description": "Tall sidebar image with 3x2 grid on the right",
+      "tags": ["gallery", "sidebar", "grid", "responsive"]
+    },
+    "gallery-split": {
+      "name": "Split Gallery",
+      "description": "Split layout with one tall item and 2x2 grid",
+      "tags": ["gallery", "split", "grid", "responsive"]
+    },
+    "gallery-spotlight": {
+      "name": "Spotlight Gallery",
+      "description": "Hero showcase with sidebar thumbnails",
+      "tags": ["gallery", "spotlight", "hero", "featured"]
+    },
+    "gallery-staircase": {
+      "name": "Staircase Gallery",
+      "description": "Staircase pattern gallery with cascading item placement",
+      "tags": ["gallery", "staircase", "grid", "responsive"]
+    },
+    "gallery-tiles": {
+      "name": "Tiles Gallery",
+      "description": "Tetris-like asymmetric tile pattern",
+      "tags": ["gallery", "tiles", "tetris", "geometric"]
+    },
+    "gallery-waterfall": {
+      "name": "Waterfall Gallery",
+      "description": "Pinterest-style masonry waterfall layout",
+      "tags": ["gallery", "masonry", "waterfall", "pinterest"]
+    },
+    "gallery-window": {
+      "name": "Window Gallery",
+      "description": "3x3 grid with enlarged center showcase",
+      "tags": ["gallery", "grid", "showcase", "window"]
+    },
+    "gallery-zigzag": {
+      "name": "Zigzag Gallery",
+      "description": "Alternating zigzag pattern with big-small-big layout",
+      "tags": ["gallery", "zigzag", "alternating", "responsive"]
+    },
+    "blog-magazine": {
+      "name": "Magazine Blog Layout",
+      "description": "Magazine-style blog layout with featured post and smaller articles",
+      "tags": ["blog", "magazine", "articles", "editorial"]
+    },
+    "blog-photo-journal": {
+      "name": "Photo Journal",
+      "description": "Blog layout with prominent photography",
+      "tags": ["blog", "photography", "journal", "articles"]
+    },
+    "portfolio-grid": {
+      "name": "Portfolio Grid",
+      "description": "3x2 grid of project cards with overlay text",
+      "tags": ["portfolio", "grid", "projects", "overlay"]
+    },
+    "portfolio-image-grid": {
+      "name": "Image Portfolio",
+      "description": "Portfolio grid with image overlays and project details",
+      "tags": ["portfolio", "projects", "showcase", "grid"]
+    }
+  }
+}
