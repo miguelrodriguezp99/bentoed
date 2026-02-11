@@ -1,18 +1,18 @@
-import type { BentoEntry } from './types';
+import type { BentoEntry } from "./types";
 
 export const galleryDiamond: BentoEntry = {
-  meta: {
-    id: 'gallery-diamond',
-    name: 'Diamond Gallery',
-    category: 'gallery',
-    columns: 12,
-    itemCount: 7,
-    description: 'Diamond/offset pattern gallery with centered items',
-    tags: ['gallery', 'diamond', 'offset', 'centered', 'responsive'],
-    createdAt: '2024-01-15',
-  },
-  code: {
-    html: `
+	meta: {
+		id: "gallery-diamond",
+		name: "Diamond Gallery",
+		category: "gallery",
+		columns: 12,
+		itemCount: 7,
+		description: "Diamond/offset pattern gallery with centered items",
+		tags: ["gallery", "diamond", "offset", "centered", "responsive"],
+		createdAt: "2024-01-15",
+	},
+	code: {
+		html: `
     <div id="bento-div" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
@@ -23,7 +23,7 @@ export const galleryDiamond: BentoEntry = {
       <div class="bento-item bento-item-7"></div>
     </div>
         `,
-    css: `
+		css: `
       :root {
         --space-sm: 1rem;
         --space-md: 1.25rem;
@@ -53,43 +53,36 @@ export const galleryDiamond: BentoEntry = {
       .bento-item-1 {
         grid-column: 1 / span 6;
         grid-row: span 2;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       }
 
       .bento-item-2 {
         grid-column: 7 / span 6;
         grid-row: span 2;
-        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
       }
 
       .bento-item-3 {
         grid-column: span 12;
         grid-row: span 2;
-        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
       }
 
       .bento-item-4 {
         grid-column: span 12;
         grid-row: span 2;
-        background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
       }
 
       .bento-item-5 {
         grid-column: span 12;
         grid-row: span 2;
-        background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
       }
 
       .bento-item-6 {
         grid-column: 1 / span 6;
         grid-row: span 2;
-        background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
       }
 
       .bento-item-7 {
         grid-column: 7 / span 6;
         grid-row: span 2;
-        background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
       }
 
       @media (min-width: 768px) {
@@ -116,7 +109,7 @@ export const galleryDiamond: BentoEntry = {
         }
       }
         `,
-    tailwind: `
+		tailwind: `
     <div
       id="bento-div"
       class="w-full grid grid-cols-12 auto-rows-[10rem] gap-4 p-4"
@@ -150,5 +143,5 @@ export const galleryDiamond: BentoEntry = {
       </div>
     </div>
         `,
-  },
+	},
 };
