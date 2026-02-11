@@ -13,7 +13,7 @@ export const galleryStaircase: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-staircase" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -28,7 +28,7 @@ export const galleryStaircase: BentoEntry = {
         --transition-fast: 0.5s ease-in-out;
       }
 
-      #bento-div {
+      #gallery-staircase {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -73,7 +73,7 @@ export const galleryStaircase: BentoEntry = {
       }
 
       @media (max-width: 768px) {
-        #bento-div {
+        #gallery-staircase {
           grid-template-columns: repeat(2, 1fr);
         }
 
@@ -88,7 +88,6 @@ export const galleryStaircase: BentoEntry = {
         `,
     tailwind: `
     <div
-    id="bento-div"
     class="w-full grid grid-cols-12 auto-rows-[18rem] gap-4 p-4"
     >
       <div class="col-span-12 lg:col-span-4 group overflow-hidden rounded-md">

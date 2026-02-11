@@ -13,7 +13,7 @@ export const galleryHeroGrid: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-hero-grid" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -28,7 +28,7 @@ export const galleryHeroGrid: BentoEntry = {
         --transition-fast: 0.5s ease-in-out;
       }
 
-      #bento-div {
+      #gallery-hero-grid {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -74,7 +74,7 @@ export const galleryHeroGrid: BentoEntry = {
       }
 
       @media (max-width: 768px) {
-        #bento-div {
+        #gallery-hero-grid {
           grid-template-columns: repeat(2, 1fr);
         }
 
@@ -92,7 +92,6 @@ export const galleryHeroGrid: BentoEntry = {
         `,
     tailwind: `
     <div
-    id="bento-div"
     class="w-full grid grid-cols-12 auto-rows-[15rem] gap-4 p-4"
     >
       <div class="col-span-12 row-span-2 group overflow-hidden rounded-md">

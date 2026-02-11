@@ -13,7 +13,7 @@ export const blogMagazine: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="blog-magazine" class="bt-div">
       <div class="bento-item bento-item-1">
         <span class="bento-category">Featured</span>
         <h2 class="bento-post-title">The Future of Web Design</h2>
@@ -65,7 +65,7 @@ export const blogMagazine: BentoEntry = {
         margin-top: 4rem /* 64px */;
       }
 
-      #bento-div {
+      #blog-magazine {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -183,7 +183,7 @@ export const blogMagazine: BentoEntry = {
 
       @media (max-width: 768px) {
         .bt-div,
-        #bento-div {
+        #blog-magazine {
           grid-template-columns: repeat(12, 1fr);
         }
 
@@ -198,7 +198,6 @@ export const blogMagazine: BentoEntry = {
         `,
     tailwind: `
     <div
-    id="bento-div"
     class="w-full grid grid-cols-12 auto-rows-[12rem] gap-4 p-1"
     >
       <div class="col-span-12 md:col-span-8 row-span-2 bg-gray-800 rounded-md overflow-hidden hover:-translate-y-1 hover:shadow-xl transition-all duration-500">

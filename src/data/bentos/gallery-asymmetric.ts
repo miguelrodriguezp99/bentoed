@@ -13,7 +13,7 @@ export const galleryAsymmetric: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-asymmetric" class="bt-div">
       <div class="bento-item bento-item-1">
         <img src="images/image.avif" />
       </div>
@@ -48,7 +48,7 @@ export const galleryAsymmetric: BentoEntry = {
       margin-top: 4rem /* 64px */;
     }
 
-    #bento-div {
+    #gallery-asymmetric {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -115,7 +115,6 @@ export const galleryAsymmetric: BentoEntry = {
         `,
     tailwind: `
     <div
-    id="bento-div"
     class="w-full grid grid-cols-12 max-auto auto-rows-[10rem] gap-4 p-1"
     >
       <div

@@ -13,7 +13,7 @@ export const galleryGrid8Item: BentoEntry = {
   },
   code: {
     html: `
-  <div id="bento-div" class="bt-div">
+  <div id="gallery-grid-8-item" class="bt-div">
     <div class="bento-item bento-item-1">
       <img src="images/image.avif" />
     </div>
@@ -58,7 +58,7 @@ export const galleryGrid8Item: BentoEntry = {
       margin-top: 4rem /* 64px */;
     }
 
-    #bento-div {
+    #gallery-grid-8-item {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -132,7 +132,6 @@ export const galleryGrid8Item: BentoEntry = {
         `,
     tailwind: `
     <div
-    id="bento-div"
     class="w-full grid grid-cols-12 max-auto auto-rows-[20rem] gap-4 p-1"
     >
       <div class="col-span-12 md:col-span-6 group overflow-hidden rounded-lg">

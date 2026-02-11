@@ -13,7 +13,7 @@ export const galleryFullWidth: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-full-width" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -28,7 +28,7 @@ export const galleryFullWidth: BentoEntry = {
         --border-radius: 0.75rem;
       }
 
-      #bento-div {
+      #gallery-full-width {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -68,7 +68,7 @@ export const galleryFullWidth: BentoEntry = {
       }
 
       @media (max-width: 768px) {
-        #bento-div {
+        #gallery-full-width {
           grid-template-columns: repeat(1, 1fr);
           grid-auto-rows: 16rem;
         }
@@ -84,7 +84,6 @@ export const galleryFullWidth: BentoEntry = {
         `,
     tailwind: `
     <div
-      id="bento-div"
       class="w-full grid grid-cols-12 auto-rows-[20rem] gap-5 p-4"
     >
       <div class="col-span-12 overflow-hidden rounded-xl bg-gradient-to-br from-purple-500 to-purple-700"><img src="images/aesthetic1.jpg" class="h-full w-full object-cover" /></div>

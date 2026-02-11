@@ -13,7 +13,7 @@ export const galleryCenterTall: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-center-tall" class="bt-div">
       <div class="bento-item bento-item-1">
         <img src="images/image.avif" />
       </div>
@@ -49,7 +49,7 @@ export const galleryCenterTall: BentoEntry = {
       margin-top: 4rem /* 64px */;
     }
 
-    #bento-div {
+    #gallery-center-tall {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -110,7 +110,6 @@ export const galleryCenterTall: BentoEntry = {
         `,
     tailwind: `
     <div
-    id="bento-div"
     class="w-full grid grid-cols-1 md:grid-cols-12 auto-rows-[14rem] md:auto-rows-[20rem] gap-4 p-1"
     >
       <div class="col-span-1 md:col-span-4 lg:col-span-3 group overflow-hidden rounded-md">

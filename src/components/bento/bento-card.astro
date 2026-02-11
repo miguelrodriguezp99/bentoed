@@ -38,7 +38,7 @@ const { meta, code } = bento;
     </div>
   </div>
 
-  <div id="bento-div" set:html={code.tailwind} />
+  <div id={`bento-${meta.id}`} set:html={code.tailwind} />
 
   <div class="relative" id="html-code" data-value={code.html} style="display:none">
     <button

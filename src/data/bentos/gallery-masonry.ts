@@ -1,19 +1,19 @@
-import type { BentoEntry } from './types';
+import type { BentoEntry } from "./types";
 
 export const galleryMasonry: BentoEntry = {
-  meta: {
-    id: 'gallery-masonry',
-    name: 'Masonry Gallery',
-    category: 'gallery',
-    columns: 4,
-    itemCount: 8,
-    description: 'Masonry-style gallery with varied item sizes',
-    tags: ['gallery', 'masonry', 'pinterest', 'varied'],
-    createdAt: '2024-01-15',
-  },
-  code: {
-    html: `
-    <div id="bento-div" class="bt-div">
+	meta: {
+		id: "gallery-masonry",
+		name: "Masonry Gallery",
+		category: "gallery",
+		columns: 4,
+		itemCount: 8,
+		description: "Masonry-style gallery with varied item sizes",
+		tags: ["gallery", "masonry", "pinterest", "varied"],
+		createdAt: "2024-01-15",
+	},
+	code: {
+		html: `
+    <div id="gallery-masonry" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -24,14 +24,14 @@ export const galleryMasonry: BentoEntry = {
       <div class="bento-item bento-item-8"></div>
     </div>
         `,
-    css: `
+		css: `
       :root {
         --space-sm: 1rem;
         --space-md: 1.25rem;
         --border-radius: 0.75rem;
       }
 
-      #bento-div {
+      #gallery-masonry {
         width: 100%;
         columns: 4;
         column-gap: var(--space-md);
@@ -91,14 +91,13 @@ export const galleryMasonry: BentoEntry = {
       }
 
       @media (max-width: 768px) {
-        #bento-div {
+        #gallery-masonry {
           columns: 2;
         }
       }
         `,
-    tailwind: `
+		tailwind: `
     <div
-      id="bento-div"
       class="w-full columns-2 md:columns-4 gap-3 p-4"
     >
       <div class="break-inside-avoid mb-3 h-72 overflow-hidden rounded-xl hover:scale-[1.02] transition-transform duration-300"><img src="images/aesthetic1.jpg" class="h-full w-full object-cover" /></div>
@@ -111,5 +110,5 @@ export const galleryMasonry: BentoEntry = {
       <div class="break-inside-avoid mb-3 h-96 overflow-hidden rounded-xl hover:scale-[1.02] transition-transform duration-300"><img src="images/aesthetic8.jpg" class="h-full w-full object-cover" /></div>
     </div>
         `,
-  },
+	},
 };

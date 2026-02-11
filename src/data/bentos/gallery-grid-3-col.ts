@@ -13,7 +13,7 @@ export const galleryGrid3Col: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-grid-3-col" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -29,7 +29,7 @@ export const galleryGrid3Col: BentoEntry = {
         --transition-fast: 0.5s ease-in-out;
       }
 
-      #bento-div {
+      #gallery-grid-3-col {
         width: 100%;
         columns: 3;
         column-gap: var(--space-sm);
@@ -79,14 +79,13 @@ export const galleryGrid3Col: BentoEntry = {
       }
 
       @media (max-width: 768px) {
-        #bento-div {
+        #gallery-grid-3-col {
           columns: 2;
         }
       }
         `,
     tailwind: `
     <div
-      id="bento-div"
       class="w-full columns-2 md:columns-3 gap-4 p-4"
     >
       <div class="break-inside-avoid mb-4 h-88 group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">

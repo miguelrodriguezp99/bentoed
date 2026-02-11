@@ -13,7 +13,7 @@ export const galleryFeaturedRow: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-featured-row" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -29,7 +29,7 @@ export const galleryFeaturedRow: BentoEntry = {
         --transition-fast: 0.5s ease-in-out;
       }
 
-      #bento-div {
+      #gallery-featured-row {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -95,7 +95,6 @@ export const galleryFeaturedRow: BentoEntry = {
         `,
     tailwind: `
     <div
-      id="bento-div"
       class="w-full grid grid-cols-12 auto-rows-[10rem] gap-4 p-4"
     >
       <div class="col-span-12 row-span-4 md:col-span-8 md:row-span-4 group overflow-hidden rounded-xl hover:scale-[1.02] transition-transform duration-500">

@@ -14,7 +14,7 @@ export const galleryCross: BentoEntry = {
 	},
 	code: {
 		html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-cross" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -29,7 +29,7 @@ export const galleryCross: BentoEntry = {
         --transition-fast: 0.5s ease-in-out;
       }
 
-      #bento-div {
+      #gallery-cross {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -79,7 +79,7 @@ export const galleryCross: BentoEntry = {
       }
 
       @media (max-width: 768px) {
-        #bento-div {
+        #gallery-cross {
           grid-template-columns: 1fr;
           grid-template-rows: auto;
         }
@@ -97,7 +97,6 @@ export const galleryCross: BentoEntry = {
         `,
 		tailwind: `
     <div
-      id="bento-div"
       class="w-full grid grid-cols-1 md:grid-cols-3 md:grid-rows-[14rem_14rem_14rem] gap-4 p-4"
     >
       <div class="md:col-start-2 md:row-start-1 row-start-1 col-start-0 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">

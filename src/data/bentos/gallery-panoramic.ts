@@ -13,7 +13,7 @@ export const galleryPanoramic: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-panoramic" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -27,7 +27,7 @@ export const galleryPanoramic: BentoEntry = {
         --transition-fast: 0.5s ease-in-out;
       }
 
-      #bento-div {
+      #gallery-panoramic {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -77,7 +77,6 @@ export const galleryPanoramic: BentoEntry = {
         `,
     tailwind: `
     <div
-      id="bento-div"
       class="w-full grid grid-cols-12 gap-4 p-4"
     >
       <div class="col-span-12 h-32 md:h-48 group overflow-hidden rounded-xl hover:scale-[1.01] transition-transform duration-500">

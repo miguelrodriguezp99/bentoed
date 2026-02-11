@@ -13,7 +13,7 @@ export const portfolioGrid: BentoEntry = {
   },
   code: {
     html: `
-    <div id="bento-div" class="bt-div">
+    <div id="portfolio-grid" class="bt-div">
       <div class="bento-item bento-item-1">
         <div class="project-overlay">
           <span class="project-badge">Featured</span>
@@ -98,7 +98,7 @@ export const portfolioGrid: BentoEntry = {
         --transition-fast: 0.3s ease-in-out;
       }
 
-      #bento-div {
+      #portfolio-grid {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -217,7 +217,7 @@ export const portfolioGrid: BentoEntry = {
       }
 
       @media (max-width: 768px) {
-        #bento-div {
+        #portfolio-grid {
           grid-template-columns: repeat(1, 1fr);
           grid-auto-rows: 16rem;
         }
@@ -229,7 +229,6 @@ export const portfolioGrid: BentoEntry = {
         `,
     tailwind: `
     <div
-      id="bento-div"
       class="w-full grid grid-cols-12 auto-rows-[20rem] gap-5 p-4"
     >
       <div class="col-span-12 md:col-span-4 overflow-hidden rounded-xl bg-gradient-to-br from-indigo-600 to-purple-700 relative cursor-pointer group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 shadow-lg">

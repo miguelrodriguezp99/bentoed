@@ -13,7 +13,7 @@ export const galleryDiamond: BentoEntry = {
 	},
 	code: {
 		html: `
-    <div id="bento-div" class="bt-div">
+    <div id="gallery-diamond" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
       <div class="bento-item bento-item-3"></div>
@@ -31,7 +31,7 @@ export const galleryDiamond: BentoEntry = {
         --transition-fast: 0.5s ease-in-out;
       }
 
-      #bento-div {
+      #gallery-diamond {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -53,36 +53,43 @@ export const galleryDiamond: BentoEntry = {
       .bento-item-1 {
         grid-column: 1 / span 6;
         grid-row: span 2;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       }
 
       .bento-item-2 {
         grid-column: 7 / span 6;
         grid-row: span 2;
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
       }
 
       .bento-item-3 {
         grid-column: span 12;
         grid-row: span 2;
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
       }
 
       .bento-item-4 {
         grid-column: span 12;
         grid-row: span 2;
+        background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
       }
 
       .bento-item-5 {
         grid-column: span 12;
         grid-row: span 2;
+        background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
       }
 
       .bento-item-6 {
         grid-column: 1 / span 6;
         grid-row: span 2;
+        background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
       }
 
       .bento-item-7 {
         grid-column: 7 / span 6;
         grid-row: span 2;
+        background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
       }
 
       @media (min-width: 768px) {
@@ -111,7 +118,6 @@ export const galleryDiamond: BentoEntry = {
         `,
 		tailwind: `
     <div
-      id="bento-div"
       class="w-full grid grid-cols-12 auto-rows-[10rem] gap-4 p-4"
     >
       <div class="col-span-6 row-span-2 md:col-start-3 md:col-span-4 group overflow-hidden rounded-xl hover:scale-[1.02] transition-transform duration-500">
