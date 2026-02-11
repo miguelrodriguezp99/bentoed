@@ -13,9 +13,9 @@ export const blogPhotoJournal: BentoEntry = {
 	},
 	code: {
 		tailwind: `<div class="p-8 rounded-2xl max-w-7xl mx-auto">
-  <div class="grid grid-cols-12 gap-6">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
     <!-- Hero image with title overlay -->
-    <div class="col-span-12 row-span-2 relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02] h-[500px]">
+    <div class="col-span-1 md:col-span-12 row-span-1 md:row-span-2 relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02] h-[300px] md:h-[500px]">
       <img src="images/aesthetic1.jpg" alt="Hero post" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent flex items-end">
         <div class="p-8 text-white w-full">
@@ -34,7 +34,7 @@ export const blogPhotoJournal: BentoEntry = {
     </div>
 
     <!-- Card 1: Image + Content -->
-    <div class="col-span-6 relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02] bg-slate-900">
+    <div class="col-span-1 md:col-span-6 relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02] bg-slate-900">
       <div class="h-64 overflow-hidden">
         <img src="images/aesthetic2.jpg" alt="Post image" class="w-full h-full object-cover" />
       </div>
@@ -53,7 +53,7 @@ export const blogPhotoJournal: BentoEntry = {
     </div>
 
     <!-- Card 2: Image + Content -->
-    <div class="col-span-6 relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02] bg-slate-900">
+    <div class="col-span-1 md:col-span-6 relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-[1.02] bg-slate-900">
       <div class="h-64 overflow-hidden">
         <img src="images/aesthetic3.jpg" alt="Post image" class="w-full h-full object-cover" />
       </div>
@@ -72,15 +72,7 @@ export const blogPhotoJournal: BentoEntry = {
     </div>
   </div>
 </div>
-
-<!-- Mobile responsive -->
-<style>
-@media (max-width: 768px) {
-  .col-span-6 {
-    grid-column: span 12;
-  }
-}
-</style>`,
+`,
 		css: `<style>
 .photo-journal {
   background-color: #0f172a;

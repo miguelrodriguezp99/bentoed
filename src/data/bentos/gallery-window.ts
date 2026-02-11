@@ -12,7 +12,7 @@ export const galleryWindow: BentoEntry = {
 		createdAt: "2024-01-15",
 	},
 	code: {
-		tailwind: `<div class="grid grid-cols-4 gap-4 p-8 rounded-2xl max-w-7xl mx-auto">
+		tailwind: `<div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-8 rounded-2xl max-w-7xl mx-auto">
   <!-- Top row -->
   <div class="relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
     <img src="images/aesthetic1.jpg" alt="Gallery item" class="w-full h-48 object-cover" />
@@ -31,7 +31,7 @@ export const galleryWindow: BentoEntry = {
   <div class="relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
     <img src="images/aesthetic5.jpg" alt="Gallery item" class="w-full h-48 object-cover" />
   </div>
-  <div class="col-span-2 row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+  <div class="col-span-2 row-span-1 md:row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
     <img src="images/aesthetic6.jpg" alt="Gallery showcase" class="w-full h-full object-cover" />
     <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent flex items-end">
       <div class="p-6 text-white">
@@ -51,15 +51,7 @@ export const galleryWindow: BentoEntry = {
   <div class="relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
     <img src="images/aesthetic1.jpg" alt="Gallery item" class="w-full h-48 object-cover" />
   </div>
-</div>
-
-<!-- Mobile responsive -->
-<style>
-@media (max-width: 768px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
-  .col-span-2 { grid-column: span 2; }
-}
-</style>`,
+</div>`,
 		css: `<style>
 .window-gallery {
   display: grid;

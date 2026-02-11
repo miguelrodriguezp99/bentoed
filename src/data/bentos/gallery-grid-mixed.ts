@@ -13,9 +13,9 @@ export const galleryGridMixed: BentoEntry = {
 	},
 	code: {
 		tailwind: `<div class=" p-8 rounded-2xl max-w-7xl mx-auto">
-  <div class="grid grid-cols-12 gap-4 auto-rows-[200px]">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 auto-rows-[200px]">
     <!-- Large horizontal -->
-    <div class="col-span-6 row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-6 row-span-1 md:row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic1.jpg" alt="Gallery item" class="w-full h-full object-cover" />
       <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950/80 to-transparent p-4">
         <h3 class="text-white text-xl font-bold">Featured Work</h3>
@@ -23,32 +23,32 @@ export const galleryGridMixed: BentoEntry = {
     </div>
 
     <!-- Two medium squares -->
-    <div class="col-span-3 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-3 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic2.jpg" alt="Gallery item" class="w-full h-full object-cover" />
     </div>
 
-    <div class="col-span-3 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-3 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic3.jpg" alt="Gallery item" class="w-full h-full object-cover" />
     </div>
 
     <!-- One tall on right -->
-    <div class="col-span-3 row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-3 row-span-1 md:row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic4.jpg" alt="Gallery item" class="w-full h-full object-cover" />
       <div class="absolute top-4 right-4 bg-slate-950/80 text-white text-xs px-3 py-1 rounded-full">Vertical</div>
     </div>
 
     <!-- One tall on left bottom -->
-    <div class="col-span-3 row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-3 row-span-1 md:row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic5.jpg" alt="Gallery item" class="w-full h-full object-cover" />
     </div>
 
     <!-- Two wide horizontal at bottom -->
-    <div class="col-span-6 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-6 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic6.jpg" alt="Gallery item" class="w-full h-full object-cover" />
     </div>
 
     <!-- Full width footer -->
-    <div class="col-span-12 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-12 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic7.jpg" alt="Gallery item" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/40 to-transparent flex items-center">
         <div class="p-6 text-white">
@@ -58,19 +58,7 @@ export const galleryGridMixed: BentoEntry = {
       </div>
     </div>
   </div>
-</div>
-
-<!-- Mobile responsive -->
-<style>
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .col-span-6, .col-span-3, .col-span-12 {
-    grid-column: span 2;
-  }
-}
-</style>`,
+</div>`,
 		css: `<style>
 .mixed-gallery {
   background-color: #0f172a;

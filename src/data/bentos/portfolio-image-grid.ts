@@ -13,9 +13,9 @@ export const portfolioImageGrid: BentoEntry = {
 	},
 	code: {
 		tailwind: `<div class=" p-8 rounded-2xl max-w-7xl mx-auto">
-  <div class="grid grid-cols-12 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
     <!-- Project 1 -->
-    <div class="col-span-4 row-span-2 group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
+    <div class="col-span-1 md:col-span-4 row-span-1 md:row-span-2 h-[300px] md:h-auto group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
       <img src="images/aesthetic1.jpg" alt="Project" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent opacity-100 group-hover:opacity-90 transition-opacity">
         <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-0 group-hover:translate-y-0 transition-transform">
@@ -30,7 +30,7 @@ export const portfolioImageGrid: BentoEntry = {
     </div>
 
     <!-- Project 2 -->
-    <div class="col-span-4 row-span-2 group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
+    <div class="col-span-1 md:col-span-4 row-span-1 md:row-span-2 h-[300px] md:h-auto group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
       <img src="images/aesthetic2.jpg" alt="Project" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent opacity-100 group-hover:opacity-90 transition-opacity">
         <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-0 group-hover:translate-y-0 transition-transform">
@@ -45,7 +45,7 @@ export const portfolioImageGrid: BentoEntry = {
     </div>
 
     <!-- Project 3 -->
-    <div class="col-span-4 row-span-2 group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
+    <div class="col-span-1 md:col-span-4 row-span-1 md:row-span-2 h-[300px] md:h-auto group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
       <img src="images/aesthetic3.jpg" alt="Project" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent opacity-100 group-hover:opacity-90 transition-opacity">
         <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-0 group-hover:translate-y-0 transition-transform">
@@ -60,7 +60,7 @@ export const portfolioImageGrid: BentoEntry = {
     </div>
 
     <!-- Project 4 -->
-    <div class="col-span-4 row-span-2 group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
+    <div class="col-span-1 md:col-span-4 row-span-1 md:row-span-2 h-[300px] md:h-auto group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
       <img src="images/aesthetic4.jpg" alt="Project" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent opacity-100 group-hover:opacity-90 transition-opacity">
         <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-0 group-hover:translate-y-0 transition-transform">
@@ -75,7 +75,7 @@ export const portfolioImageGrid: BentoEntry = {
     </div>
 
     <!-- Project 5 -->
-    <div class="col-span-4 row-span-2 group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
+    <div class="col-span-1 md:col-span-4 row-span-1 md:row-span-2 h-[300px] md:h-auto group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
       <img src="images/aesthetic5.jpg" alt="Project" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent opacity-100 group-hover:opacity-90 transition-opacity">
         <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-0 group-hover:translate-y-0 transition-transform">
@@ -90,7 +90,7 @@ export const portfolioImageGrid: BentoEntry = {
     </div>
 
     <!-- Project 6 -->
-    <div class="col-span-4 row-span-2 group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
+    <div class="col-span-1 md:col-span-4 row-span-1 md:row-span-2 h-[300px] md:h-auto group relative overflow-hidden rounded-xl shadow-2xl transition-transform hover:scale-105 cursor-pointer">
       <img src="images/aesthetic6.jpg" alt="Project" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent opacity-100 group-hover:opacity-90 transition-opacity">
         <div class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-0 group-hover:translate-y-0 transition-transform">

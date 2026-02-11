@@ -194,5 +194,13 @@ const langCodes = languages.map((l) => l.code);
     [dir="rtl"] .ml-3 { margin-left: 0; margin-right: 0.75rem; }
     [dir="rtl"] .mr-3 { margin-right: 0; margin-left: 0.75rem; }
     [dir="rtl"] section { text-align: center; }
+
+    /* Mobile bento fixes - minimal safety net */
+    @media (max-width: 640px) {
+      #bento-div > div {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+      }
+    }
   </style>
 </html>

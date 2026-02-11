@@ -133,10 +133,10 @@ export const galleryMosaic9: BentoEntry = {
     tailwind: `
     <div
       id="bento-div"
-      class="w-full grid grid-cols-8 max-auto auto-rows-[10rem] gap-4 p-1"
+      class="w-full grid grid-cols-1 md:grid-cols-8 auto-rows-[14rem] md:auto-rows-[10rem] gap-4 p-1"
     >
       <div
-        class="col-span-4 lg:col-span-2 lg:row-span-2 group overflow-hidden rounded-md"
+        class="col-span-1 md:col-span-4 lg:col-span-2 row-span-1 lg:row-span-2 group overflow-hidden rounded-md"
       >
         <img
           src="images/image.avif"
@@ -144,14 +144,14 @@ export const galleryMosaic9: BentoEntry = {
         />
       </div>
 
-      <div class="col-span-2 lg:col-span-2 group overflow-hidden rounded-md">
+      <div class="col-span-1 md:col-span-2 lg:col-span-2 group overflow-hidden rounded-md">
         <img
           src="images/image2.avif"
           class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
         />
       </div>
 
-      <div class="col-span-2 lg:col-span-2 group overflow-hidden rounded-md">
+      <div class="col-span-1 md:col-span-2 lg:col-span-2 group overflow-hidden rounded-md">
         <img
           src="images/image3.avif"
           class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -159,7 +159,7 @@ export const galleryMosaic9: BentoEntry = {
       </div>
 
       <div
-        class="col-span-2 lg:col-span-2 lg:row-span-2 group overflow-hidden rounded-md"
+        class="col-span-1 md:col-span-2 lg:col-span-2 row-span-1 lg:row-span-2 group overflow-hidden rounded-md"
       >
         <img
           src="images/image4.avif"
@@ -168,7 +168,7 @@ export const galleryMosaic9: BentoEntry = {
       </div>
 
       <div
-        class="col-span-4 lg:col-span-4 lg:row-span-2 group overflow-hidden rounded-md"
+        class="col-span-1 md:col-span-4 lg:col-span-4 row-span-1 lg:row-span-2 group overflow-hidden rounded-md"
       >
         <img
           src="images/image6.avif"
@@ -177,7 +177,7 @@ export const galleryMosaic9: BentoEntry = {
       </div>
 
       <div
-        class="col-span-2 lg:col-span-2 lg:row-span-1 group overflow-hidden rounded-md"
+        class="col-span-1 md:col-span-2 lg:col-span-2 group overflow-hidden rounded-md"
       >
         <img
           src="images/image8.avif"
@@ -186,7 +186,7 @@ export const galleryMosaic9: BentoEntry = {
       </div>
 
       <div
-        class="col-span-2 lg:col-span-2 lg:row-span-2 group overflow-hidden rounded-md"
+        class="col-span-1 md:col-span-2 lg:col-span-2 row-span-1 lg:row-span-2 group overflow-hidden rounded-md"
       >
         <img
           src="images/image9.avif"
@@ -195,7 +195,7 @@ export const galleryMosaic9: BentoEntry = {
       </div>
 
       <div
-        class="col-span-2 lg:col-span-4 lg:row-span-1 group overflow-hidden rounded-md"
+        class="col-span-1 md:col-span-4 lg:col-span-4 group overflow-hidden rounded-md"
       >
         <img
           src="images/image3.avif"
@@ -204,7 +204,7 @@ export const galleryMosaic9: BentoEntry = {
       </div>
 
       <div
-        class="col-span-4 lg:col-span-2 lg:row-span-1 group overflow-hidden rounded-md"
+        class="col-span-1 md:col-span-4 lg:col-span-2 group overflow-hidden rounded-md"
       >
         <img
           src="images/image.avif"

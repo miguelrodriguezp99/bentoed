@@ -13,9 +13,9 @@ export const gallerySpotlight: BentoEntry = {
 	},
 	code: {
 		tailwind: `<div class=" p-8 rounded-2xl max-w-7xl mx-auto">
-  <div class="grid grid-cols-12 gap-4 h-[600px]">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 h-auto md:h-[600px]">
     <!-- Main spotlight image -->
-    <div class="col-span-8 row-span-3 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-8 row-span-1 md:row-span-3 h-[400px] md:h-auto relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic1.jpg" alt="Spotlight" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent flex items-end">
         <div class="p-8 text-white w-full">
@@ -30,7 +30,7 @@ export const gallerySpotlight: BentoEntry = {
     </div>
 
     <!-- Sidebar thumbnails -->
-    <div class="col-span-4 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-4 row-span-1 h-[200px] md:h-auto relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic2.jpg" alt="Thumbnail" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-slate-950/40 hover:bg-slate-950/20 transition-colors flex items-center justify-center">
         <div class="text-white text-center">
@@ -39,7 +39,7 @@ export const gallerySpotlight: BentoEntry = {
       </div>
     </div>
 
-    <div class="col-span-4 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-4 row-span-1 h-[200px] md:h-auto relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic3.jpg" alt="Thumbnail" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-slate-950/40 hover:bg-slate-950/20 transition-colors flex items-center justify-center">
         <div class="text-white text-center">
@@ -48,7 +48,7 @@ export const gallerySpotlight: BentoEntry = {
       </div>
     </div>
 
-    <div class="col-span-4 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-4 row-span-1 h-[200px] md:h-auto relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic4.jpg" alt="Thumbnail" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-slate-950/40 hover:bg-slate-950/20 transition-colors flex items-center justify-center">
         <div class="text-white text-center">
@@ -57,27 +57,7 @@ export const gallerySpotlight: BentoEntry = {
       </div>
     </div>
   </div>
-</div>
-
-<!-- Mobile responsive -->
-<style>
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    height: auto;
-  }
-  .col-span-8, .col-span-4 {
-    grid-column: span 1;
-  }
-  .col-span-8 {
-    min-height: 400px;
-  }
-  .col-span-4 {
-    height: 200px;
-  }
-}
-</style>`,
+</div>`,
 		css: `<style>
 .spotlight-gallery {
   background-color: #0f172a;

@@ -13,7 +13,7 @@ export const galleryWaterfall: BentoEntry = {
 	},
 	code: {
 		tailwind: `<div class=" p-8 rounded-2xl max-w-7xl mx-auto">
-  <div class="columns-5 gap-4 space-y-4">
+  <div class="columns-1 md:columns-5 gap-4 space-y-4">
     <div class="break-inside-avoid mb-4">
       <div class="relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl" style="height: 20rem;">
         <img src="images/aesthetic1.jpg" alt="Gallery item" class="w-full h-full object-cover" />

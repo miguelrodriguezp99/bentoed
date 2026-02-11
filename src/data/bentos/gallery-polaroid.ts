@@ -166,7 +166,7 @@ export const galleryPolaroid: BentoEntry = {
     tailwind: `
     <div
       id="bento-div"
-      class="w-full grid grid-cols-12 auto-rows-[minmax(22rem,auto)] gap-5 p-4"
+      class="w-full grid grid-cols-1 md:grid-cols-12 auto-rows-[auto] md:auto-rows-[minmax(22rem,auto)] gap-5 p-4"
     >
       <div class="col-span-12 md:col-span-4">
         <div class="bg-white p-4 pb-12 rounded shadow-lg hover:rotate-0 hover:-translate-y-2 transition-all duration-300 -rotate-2">

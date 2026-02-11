@@ -13,74 +13,55 @@ export const galleryTiles: BentoEntry = {
 	},
 	code: {
 		tailwind: `<div class="p-8 rounded-2xl max-w-7xl mx-auto">
-  <div class="grid grid-cols-6 gap-4 auto-rows-[200px]">
+  <div class="grid grid-cols-1 md:grid-cols-6 gap-4 auto-rows-[200px]">
     <!-- L-shape piece: 2x2 main + 1x1 extension -->
-    <div class="col-span-2 row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-2 row-span-1 md:row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic1.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
       <div class="absolute top-4 left-4 bg-slate-950/80 text-white text-xs px-3 py-1 rounded-full">L-Tile</div>
     </div>
 
     <!-- Tall vertical -->
-    <div class="col-span-1 row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-1 row-span-1 md:row-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic2.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
     </div>
 
     <!-- Square -->
-    <div class="col-span-1 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-1 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic3.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
     </div>
 
     <!-- Wide horizontal -->
-    <div class="col-span-2 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-2 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic4.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
     </div>
 
     <!-- T-shape top: horizontal bar -->
-    <div class="col-span-2 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-2 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic5.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
       <div class="absolute top-4 left-4 bg-slate-950/80 text-white text-xs px-3 py-1 rounded-full">T-Top</div>
     </div>
 
     <!-- Small square -->
-    <div class="col-span-1 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-1 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic6.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
     </div>
 
     <!-- T-shape stem: vertical drop -->
-    <div class="col-start-0 col-span-2 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-2 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic7.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
       <div class="absolute top-4 left-4 bg-slate-950/80 text-white text-xs px-3 py-1 rounded-full">T-Stem</div>
     </div>
 
     <!-- Wide bottom piece -->
-    <div class="col-span-3 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-3 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic8.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
     </div>
 
-		<div class="col-span-1 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+		<div class="col-span-1 md:col-span-1 row-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic5.jpg" alt="Gallery tile" class="w-full h-full object-cover" />
     </div>
   </div>
-</div>
-
-<!-- Mobile responsive -->
-<style>
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 150px;
-  }
-  .col-span-2, .col-span-3 {
-    grid-column: span 2;
-  }
-  .col-span-1 {
-    grid-column: span 1;
-  }
-  .col-start-2 {
-    grid-column: auto;
-  }
-}
-</style>`,
+</div>`,
 		css: `<style>
 .tiles-gallery {
   background-color: #0f172a;

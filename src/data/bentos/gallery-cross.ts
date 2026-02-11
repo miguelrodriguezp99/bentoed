@@ -1,18 +1,19 @@
-import type { BentoEntry } from './types';
+import type { BentoEntry } from "./types";
 
 export const galleryCross: BentoEntry = {
-  meta: {
-    id: 'gallery-cross',
-    name: 'Cross Gallery',
-    category: 'gallery',
-    columns: 12,
-    itemCount: 5,
-    description: 'Cross/plus pattern with center focal point surrounded by items',
-    tags: ['gallery', 'cross', 'focal', 'responsive'],
-    createdAt: '2024-01-15',
-  },
-  code: {
-    html: `
+	meta: {
+		id: "gallery-cross",
+		name: "Cross Gallery",
+		category: "gallery",
+		columns: 12,
+		itemCount: 5,
+		description:
+			"Cross/plus pattern with center focal point surrounded by items",
+		tags: ["gallery", "cross", "focal", "responsive"],
+		createdAt: "2024-01-15",
+	},
+	code: {
+		html: `
     <div id="bento-div" class="bt-div">
       <div class="bento-item bento-item-1"></div>
       <div class="bento-item bento-item-2"></div>
@@ -21,7 +22,7 @@ export const galleryCross: BentoEntry = {
       <div class="bento-item bento-item-5"></div>
     </div>
         `,
-    css: `
+		css: `
       :root {
         --space-sm: 1rem;
         --border-radius: 0.75rem;
@@ -94,27 +95,27 @@ export const galleryCross: BentoEntry = {
         }
       }
         `,
-    tailwind: `
+		tailwind: `
     <div
       id="bento-div"
       class="w-full grid grid-cols-1 md:grid-cols-3 md:grid-rows-[14rem_14rem_14rem] gap-4 p-4"
     >
-      <div class="md:col-start-2 md:row-start-1 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
+      <div class="md:col-start-2 md:row-start-1 row-start-1 col-start-0 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
         <img src="images/aesthetic1.jpg" class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
-      <div class="md:col-start-1 md:row-start-2 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
+      <div class="md:col-start-1 md:row-start-2 row-start-1 col-start-0 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
         <img src="images/aesthetic2.jpg" class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
-      <div class="md:col-start-2 md:row-start-2 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
+      <div class="md:col-start-2 md:row-start-2 row-start-1 col-start-0 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
         <img src="images/aesthetic3.jpg" class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
-      <div class="md:col-start-3 md:row-start-2 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
+      <div class="md:col-start-3 md:row-start-2 row-start-1 col-start-0 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
         <img src="images/aesthetic4.jpg" class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
-      <div class="md:col-start-2 md:row-start-3 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
+      <div class="md:col-start-2 md:row-start-3 row-start-1 col-start-0 h-56 md:h-auto group overflow-hidden rounded-xl hover:scale-[1.03] transition-transform duration-500">
         <img src="images/aesthetic5.jpg" class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
     </div>
         `,
-  },
+	},
 };

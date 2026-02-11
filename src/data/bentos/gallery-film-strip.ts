@@ -13,52 +13,38 @@ export const galleryFilmStrip: BentoEntry = {
 	},
 	code: {
 		tailwind: `<div class=" p-8 rounded-2xl max-w-7xl mx-auto">
-  <div class="grid grid-cols-12 gap-4 h-80">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 h-auto md:h-80">
     <!-- Frame 1: Narrow -->
-    <div class="col-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-2 h-48 md:h-full relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic1.jpg" alt="Film frame" class="w-full h-full object-cover" />
       <div class="absolute top-2 left-2 bg-slate-950/80 text-white text-xs px-2 py-1 rounded">01</div>
     </div>
 
     <!-- Frame 2: Wide -->
-    <div class="col-span-4 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-4 h-48 md:h-full relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic2.jpg" alt="Film frame" class="w-full h-full object-cover" />
       <div class="absolute top-2 left-2 bg-slate-950/80 text-white text-xs px-2 py-1 rounded">02</div>
     </div>
 
     <!-- Frame 3: Medium -->
-    <div class="col-span-3 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-3 h-48 md:h-full relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic3.jpg" alt="Film frame" class="w-full h-full object-cover" />
       <div class="absolute top-2 left-2 bg-slate-950/80 text-white text-xs px-2 py-1 rounded">03</div>
     </div>
 
     <!-- Frame 4: Narrow -->
-    <div class="col-span-2 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-2 h-48 md:h-full relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic4.jpg" alt="Film frame" class="w-full h-full object-cover" />
       <div class="absolute top-2 left-2 bg-slate-950/80 text-white text-xs px-2 py-1 rounded">04</div>
     </div>
 
     <!-- Frame 5: Extra wide -->
-    <div class="col-span-1 relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
+    <div class="col-span-1 md:col-span-1 h-48 md:h-full relative overflow-hidden rounded-xl transition-transform hover:scale-105 shadow-2xl">
       <img src="images/aesthetic5.jpg" alt="Film frame" class="w-full h-full object-cover" />
       <div class="absolute top-2 left-2 bg-slate-950/80 text-white text-xs px-2 py-1 rounded">05</div>
     </div>
   </div>
-</div>
-
-<!-- Mobile responsive -->
-<style>
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 12rem);
-    height: auto;
-  }
-  .col-span-2, .col-span-3, .col-span-4, .col-span-1 {
-    grid-column: span 1;
-  }
-}
-</style>`,
+</div>`,
 		css: `<style>
 .film-strip {
   background-color: #0f172a;

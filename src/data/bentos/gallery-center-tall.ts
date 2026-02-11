@@ -111,9 +111,9 @@ export const galleryCenterTall: BentoEntry = {
     tailwind: `
     <div
     id="bento-div"
-    class="w-full grid grid-cols-12 max-auto auto-rows-[20rem] gap-4 p-1"
+    class="w-full grid grid-cols-1 md:grid-cols-12 auto-rows-[14rem] md:auto-rows-[20rem] gap-4 p-1"
     >
-      <div class="col-span-4 lg:col-span-3 group overflow-hidden rounded-md">
+      <div class="col-span-1 md:col-span-4 lg:col-span-3 group overflow-hidden rounded-md">
         <img
           src="images/image.avif"
           class="h-full w-full object-cover
@@ -121,7 +121,7 @@ export const galleryCenterTall: BentoEntry = {
         />
       </div>
 
-      <div class="col-span-4 lg:col-span-5 group overflow-hidden rounded-md">
+      <div class="col-span-1 md:col-span-4 lg:col-span-5 group overflow-hidden rounded-md">
         <img
           src="images/image2.avif"
           class="h-full w-full object-cover
@@ -130,7 +130,7 @@ export const galleryCenterTall: BentoEntry = {
       </div>
 
       <div
-        class="col-span-4 row-span-2 lg:col-span-4 lg:row-span-2 group overflow-hidden rounded-md"
+        class="col-span-1 row-span-1 md:col-span-4 md:row-span-2 lg:col-span-4 lg:row-span-2 group overflow-hidden rounded-md"
       >
         <img
           src="images/image3.avif"
@@ -138,14 +138,14 @@ export const galleryCenterTall: BentoEntry = {
         group-hover:scale-105 transition-transform duration-500 ease-in-out"
         />
       </div>
-      <div class="col-span-4 lg:col-span-5 group overflow-hidden rounded-md">
+      <div class="col-span-1 md:col-span-4 lg:col-span-5 group overflow-hidden rounded-md">
         <img
           src="images/image4.avif"
           class="h-full w-full object-cover
         group-hover:scale-105 transition-transform duration-500 ease-in-out"
         />
       </div>
-      <div class="col-span-4 lg:col-span-3 group overflow-hidden rounded-md">
+      <div class="col-span-1 md:col-span-4 lg:col-span-3 group overflow-hidden rounded-md">
         <img
           src="images/image6.avif"
           class="h-full w-full object-cover
